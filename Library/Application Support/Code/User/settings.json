@@ -1,0 +1,70 @@
+{
+  "editor.fontFamily": "Consolas NF",
+  "terminal.integrated.fontFamily": "Consolas NF",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.4,
+  "editor.letterSpacing": 0.2,
+  "terminal.integrated.fontSize": 13,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.tabCompletion": "on",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "vim.showmodename": false,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.hlsearch": false,
+  "vim.incsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.handleKeys": {
+    "<C-[>": true,
+    "<C-d>": true,
+    "<C-i>": true,
+    "<C-j>": true,
+    "<C-o>": true,
+    "<C-r>": true,
+    "<C-t>": true,
+    "<C-u>": true,
+    "<C-v>": true,
+    "<C-w>": true
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["g", "w"],
+      "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    }
+  ],
+  "python.languageServer": "Default",
+  "diffEditor.renderSideBySide": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "clangd.path": "/Users/pcho/Library/Application Support/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "cpp": "cd $dir && clang++ $fileName -o $fileNameWithoutExt -std=c++20 && $dir$fileNameWithoutExt"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
