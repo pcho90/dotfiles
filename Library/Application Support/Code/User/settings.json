@@ -13,23 +13,28 @@
   "files.eol": "\n",
   "git.autofetch": true,
   "vim.showmodename": false,
-  "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
   "vim.easymotion": true,
   "vim.hlsearch": false,
   "vim.incsearch": true,
   "vim.highlightedyank.enable": true,
+  "vim.useCtrlKeys": false,
   "vim.handleKeys": {
     "<C-[>": true,
+    "<C-a>": true,
     "<C-d>": true,
+    "<C-e>": true,
     "<C-i>": true,
-    "<C-j>": true,
+    "<C-l>": true,
+    "<C-m>": true,
     "<C-o>": true,
     "<C-r>": true,
     "<C-t>": true,
     "<C-u>": true,
     "<C-v>": true,
-    "<C-w>": true
+    "<C-w>": true,
+    "<C-x>": true,
+    "<C-y>": true
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {

@@ -29,11 +29,6 @@
     "command": "toggleVim"
   },
   {
-    "key": "ctrl+a",
-    "command": "cursorHome",
-    "when": "textInputFocus"
-  },
-  {
     "key": "ctrl+shift+a",
     "command": "cursorHomeSelect",
     "when": "textInputFocus"

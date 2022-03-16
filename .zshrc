@@ -27,6 +27,8 @@ export NVM_DIR="$HOME/.nvm"
 
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs'
 export FZF_CTRL_T_COMMAND='rg --files --hidden --no-messages'
+export ZSH_AUTOSUGGESTION_STRATEGY=(history completion)
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
