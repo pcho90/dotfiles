@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Mariana Pro (Cool)",
   "editor.fontFamily": "Consolas NF",
   "terminal.integrated.fontFamily": "Consolas NF",
   "editor.fontSize": 13,
@@ -71,5 +72,5 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
 }
