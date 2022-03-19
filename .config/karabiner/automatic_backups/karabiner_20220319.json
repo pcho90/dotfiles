@@ -16,7 +16,7 @@
                 },
                 "rules": [
                     {
-                        "description": "HHKB style arrow keys",
+                        "description": "right shift + [;'/",
                         "manipulators": [
                             {
                                 "from": {
@@ -97,7 +97,7 @@
                         ]
                     },
                     {
-                        "description": "Map right shift + number keys to function keys",
+                        "description": "Map right shift + number keys to their corresponding function keys (rev 1)",
                         "manipulators": [
                             {
                                 "from": {
@@ -373,7 +373,7 @@
                                     "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_option"
+                                            "right_alt"
                                         ]
                                     }
                                 },
@@ -389,7 +389,7 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_option"
+                                            "right_alt"
                                         ]
                                     }
                                 },
@@ -405,7 +405,7 @@
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_option"
+                                            "right_alt"
                                         ]
                                     }
                                 },
@@ -419,7 +419,7 @@
                         ]
                     },
                     {
-                        "description": "Map caps_lock to control if pressed with other keys, to escape if pressed alone",
+                        "description": "Change caps_lock to control if pressed with other keys, to escape if pressed alone.",
                         "manipulators": [
                             {
                                 "from": {
@@ -458,28 +458,7 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "delete_or_backspace"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "backslash"
-                                }
-                            ]
-                        }
-                    ]
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -673,32 +652,6 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Map control to escape if pressed alone",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "left_control",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -988,7 +941,7 @@
                 },
                 "rules": [
                     {
-                        "description": "HHKB style arrow keys",
+                        "description": "right shift + [;'/",
                         "manipulators": [
                             {
                                 "from": {
@@ -1069,7 +1022,7 @@
                         ]
                     },
                     {
-                        "description": "Map right control + number keys to function keys",
+                        "description": "Map right control + number keys to their corresponding function keys (rev 1)",
                         "manipulators": [
                             {
                                 "from": {
@@ -1391,7 +1344,7 @@
                         ]
                     },
                     {
-                        "description": "Map caps_lock to control if pressed with other keys, to escape if pressed alone",
+                        "description": "Change caps_lock to control if pressed with other keys, to escape if pressed alone.",
                         "manipulators": [
                             {
                                 "from": {
@@ -1430,28 +1383,7 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "delete_or_backspace"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "backslash"
-                                }
-                            ]
-                        }
-                    ]
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -1599,7 +1531,7 @@
                 },
                 "rules": [
                     {
-                        "description": "HHKB style arrow keys",
+                        "description": "right shift + [;'/",
                         "manipulators": [
                             {
                                 "from": {
@@ -1680,7 +1612,7 @@
                         ]
                     },
                     {
-                        "description": "Map right shift + number keys to function keys",
+                        "description": "Map right shift + number keys to their corresponding function keys (rev 1)",
                         "manipulators": [
                             {
                                 "from": {
@@ -2002,7 +1934,7 @@
                         ]
                     },
                     {
-                        "description": "Map caps_lock to control if pressed with other keys, to escape if pressed alone",
+                        "description": "Change caps_lock to control if pressed with other keys, to escape if pressed alone.",
                         "manipulators": [
                             {
                                 "from": {
@@ -2041,28 +1973,7 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "delete_or_backspace"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "backslash"
-                                }
-                            ]
-                        }
-                    ]
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
