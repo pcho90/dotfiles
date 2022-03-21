@@ -1,11 +1,6 @@
 {
-  "workbench.colorTheme": "Mariana Pro (Cool)",
-  "editor.fontFamily": "Consolas NF",
-  "terminal.integrated.fontFamily": "Consolas NF",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 1.4,
-  "editor.letterSpacing": 0.2,
-  "terminal.integrated.fontSize": 13,
+  "editor.fontFamily": "Input",
+  "terminal.integrated.fontFamily": "Input",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
