@@ -1,6 +1,4 @@
 {
-  "editor.fontFamily": "Input",
-  "terminal.integrated.fontFamily": "Input",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
