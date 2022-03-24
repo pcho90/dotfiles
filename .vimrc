@@ -1,4 +1,11 @@
-syntax on
+
+call plug#begin()
+
+Plug 'joshdick/onedark.vim'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+
+call plug#end()
 
 set background=dark
 set hidden
@@ -9,7 +16,6 @@ set expandtab
 set smartindent
 set nobackup
 set number
-set scrolloff=4
 set showcmd
 set backspace=indent,eol,start
 set showmatch
@@ -21,8 +27,12 @@ set nowrap
 set noerrorbells
 set wildmenu
 set clipboard=unnamed
-set updatetime=300
 set fillchars=fold:\ ,vert:\│
 set splitbelow
 set splitright
+set termguicolors
+
+syntax on
+colorscheme onedark
+hi Normal guibg=NONE ctermbg=NONE
 
