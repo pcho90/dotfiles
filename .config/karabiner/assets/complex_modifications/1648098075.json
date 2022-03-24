@@ -29,6 +29,26 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Map right command to hyper",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": ["left_command", "left_control", "left_option"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
