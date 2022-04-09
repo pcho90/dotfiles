@@ -1775,7 +1775,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
@@ -2022,6 +2022,16 @@
                                     "key_code": "backslash"
                                 }
                             ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "escape"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "grave_accent_and_tilde"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2259,15 +2269,12 @@
                         ]
                     },
                     {
-                        "description": "HHKB style arrow keys",
+                        "description": "Map control to escape if pressed alone",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "left_control",
                                     "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
                                         "optional": [
                                             "any"
                                         ]
@@ -2275,64 +2282,12 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "left_control"
                                     }
                                 ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
+                                "to_if_alone": [
                                     {
-                                        "key_code": "down_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "up_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow"
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -2603,7 +2558,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,

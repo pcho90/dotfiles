@@ -1,3 +1,19 @@
+
+let mapleader=','
+
+call plug#begin(stdpath('data') . '/plugged')
+
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-unimpaired'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'sainnhe/edge'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
 set pumblend=15
 set pumheight=20
 set cmdheight=1
@@ -34,22 +50,8 @@ set mouse=a
 set termguicolors
 set matchpairs+=<:>
 
-call plug#begin(stdpath('data') . '/plugged')
 
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-unimpaired'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'lifepillar/vim-solarized8'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
-call plug#end()
-
-colorscheme solarized8
-
-let mapleader=','
+colorscheme edge
 
 nnoremap <silent> <leader>fg :Rg<cr>
 nnoremap <silent> <leader>fw :BLines<cr>
@@ -78,6 +80,6 @@ command! -bang -nargs=* Rg call fzf#vim#grep(grep_spec.shellescape(<q-args>), 1,
 
 let g:airline_powerline_fonts = 1
 
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight LineNr guibg=none
+hi Normal guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
+

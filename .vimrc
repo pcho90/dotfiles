@@ -1,7 +1,7 @@
 
 call plug#begin()
 
-Plug 'joshdick/onedark.vim'
+Plug 'sainnhe/edge'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 
@@ -33,6 +33,7 @@ set splitright
 set termguicolors
 
 syntax on
-colorscheme onedark
+colorscheme edge
 hi Normal guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
 

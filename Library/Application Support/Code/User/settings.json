@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "Fira Code",
-  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontFamily": "Rec Mono Linear",
+  "terminal.integrated.fontFamily": "Rec Mono Linear",
   "workbench.fontAliasing": "auto",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
@@ -69,4 +69,5 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "go.toolsManagement.autoUpdate": true,
 }
