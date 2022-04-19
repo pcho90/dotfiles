@@ -32,7 +32,7 @@ export ZSH_AUTOSUGGESTION_STRATEGY=(history completion)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export PATH="/Users/pcho/go/bin/:/opt/homebrew/opt/llvm/bin:$PATH"
 
 
 # The next line updates PATH for the Google Cloud SDK.

@@ -46,7 +46,7 @@
   "python.languageServer": "Default",
   "diffEditor.renderSideBySide": true,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -70,4 +70,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.toolsManagement.autoUpdate": true,
+  "workbench.colorTheme": "Sublime Text 4 Theme",
 }
