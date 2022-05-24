@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "MesloLGSDZ Nerd Font Mono",
-  "terminal.integrated.fontFamily": "MesloLGSDZ Nerd Font Mono",
+  "editor.fontFamily": "MesloLGS Nerd Font",
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "workbench.fontAliasing": "auto",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
@@ -70,4 +70,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.toolsManagement.autoUpdate": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
 }

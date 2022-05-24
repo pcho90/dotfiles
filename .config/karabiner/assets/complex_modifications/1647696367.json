@@ -165,6 +165,21 @@
           },
           "to": [{ "shell_command": "open '/Applications/Google Chrome.app'" }],
           "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [{ "shell_command": "open '/Applications/Discord.app'" }],
+          "type": "basic"
         }
       ]
     }
