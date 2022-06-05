@@ -1,7 +1,6 @@
 {
-  "editor.fontFamily": "SF Mono",
-  "terminal.integrated.fontFamily": "SF Mono",
-  "workbench.fontAliasing": "auto",
+  "editor.fontFamily": "Rec Mono Semicasual Custom",
+  "terminal.integrated.fontFamily": "Rec Mono Semicasual Custom",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
