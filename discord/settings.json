@@ -1,0 +1,74 @@
+{
+    "editor.fontFamily": "SauceCodePro Nerd Font",
+    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+    "editor.trimAutoWhitespace": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.tabCompletion": "on",
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 8,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "diffEditor.renderSideBySide": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "git.autofetch": true,
+    "vim.showmodename": false,
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.highlightedyank.enable": true,
+    "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        "<C-[>": true,
+        "<C-a>": true,
+        "<C-d>": true,
+        "<C-e>": true,
+        "<C-i>": true,
+        "<C-l>": true,
+        "<C-m>": true,
+        "<C-o>": true,
+        "<C-r>": true,
+        "<C-t>": true,
+        "<C-u>": true,
+        "<C-v>": true,
+        "<C-w>": true,
+        "<C-x>": true,
+        "<C-y>": true
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "w"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "<leader>",
+                "b",
+                "d",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "<CR>"
+            ],
+            "commands": [
+                ":nohl"
+            ],
+        }
+    ],
+    "python.languageServer": "Default",
+    "security.workspace.trust.untrustedFiles": "open",
+}
