@@ -178,7 +178,7 @@
               ]
             }
           },
-          "to": [{ "shell_command": "open '/Applications/Discord.app'" }],
+          "to": [{ "shell_command": "open '/Applications/Discord Canary.app'" }],
           "type": "basic"
         }
       ]
