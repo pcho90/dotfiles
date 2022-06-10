@@ -1,6 +1,6 @@
 {
-    "editor.fontFamily": "SauceCodePro Nerd Font",
-    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "editor.trimAutoWhitespace": true,
     "editor.formatOnSaveMode": "file",
     "editor.tabCompletion": "on",
@@ -71,4 +71,7 @@
     ],
     "python.languageServer": "Default",
     "security.workspace.trust.untrustedFiles": "open",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
