@@ -6,7 +6,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "t",
+            "key_code": "s",
             "modifiers": { "mandatory": ["right_alt"] }
           },
           "to": [{ "shell_command": "open '/Applications/iTerm.app'" }],
@@ -37,7 +37,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "t",
+            "key_code": "s",
             "modifiers": { "mandatory": ["right_option"] }
           },
           "to": [{ "shell_command": "open '/Applications/iTerm.app'" }],
@@ -68,7 +68,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "t",
+            "key_code": "s",
             "modifiers": { "mandatory": ["right_control"] }
           },
           "to": [{ "shell_command": "open '/Applications/iTerm.app'" }],
@@ -98,7 +98,7 @@
       "description": "Launch apps by right fn + letters",
       "manipulators": [
         {
-          "from": { "key_code": "t", "modifiers": { "mandatory": ["fn"] } },
+          "from": { "key_code": "s", "modifiers": { "mandatory": ["fn"] } },
           "to": [{ "shell_command": "open '/Applications/iTerm.app'" }],
           "type": "basic"
         },
@@ -121,7 +121,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "t",
+            "key_code": "s",
             "modifiers": {
               "mandatory": [
                 "left_shift",
@@ -178,7 +178,9 @@
               ]
             }
           },
-          "to": [{ "shell_command": "open '/Applications/Discord Canary.app'" }],
+          "to": [
+            { "shell_command": "open '/Applications/Discord Canary.app'" }
+          ],
           "type": "basic"
         }
       ]

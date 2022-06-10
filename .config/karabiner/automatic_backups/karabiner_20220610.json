@@ -422,7 +422,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -889,7 +889,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -1654,7 +1654,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -2031,7 +2031,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -2311,7 +2311,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -2733,7 +2733,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -3428,7 +3428,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -3579,145 +3579,6 @@
                                 "to": [
                                     {
                                         "shell_command": "open 'https://github.com/pulls'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Left option + keys for better movement",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "b",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [
-                                            "left_option"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow",
-                                        "modifiers": [
-                                            "left_option"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "a",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "home"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "e",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "end"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "p",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "up_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "n",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "down_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "h",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow"
                                     }
                                 ],
                                 "type": "basic"
