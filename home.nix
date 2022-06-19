@@ -1,8 +1,18 @@
 { config, pkgs, ... }:
 
 let
+  vscode-nvim = pkgs.vimUtils.buildVimPlugin {
+    name = "vscode-nvim";
+    src = pkgs.fetchFromGitHub {
+      owner = "Mofiqul";
+      repo = "vscode.nvim";
+      rev = "372bf0109b0949b715c2587c5dd8b011bcf50594";
+      sha256 = "sha256-29XyooYcuoocyV+FdqA6On+P1XpWp8ov3IAl2m/pdII=";
+    };
+  };
 in
 {
+
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
   home.username = "peter.cho";
@@ -19,21 +29,27 @@ in
   home.stateVersion = "22.05";
 
   home.packages = with pkgs; [
-    delta
-    fzf
     ripgrep
     tree
-    nodejs
   ];
 
   # Let Home Manager install and manage itself.
-  programs.home-manager.enable = true;
+  programs.home-manager = {
+    enable = true;
+  };
 
   programs.bat = {
     enable = true;
     config = {
       theme = "Visual Studio Dark+";
     };
+  };
+
+  programs.fzf = {
+    enable = true;
+    defaultCommand = "rg --files --no-ignore-vcs --hidden";
+    enableBashIntegration = true;
+    enableZshIntegration = true;
   };
 
   programs.git = {
@@ -53,6 +69,55 @@ in
         diffFilter = "delta --color-only";
       };
     };
+  };
+
+  programs.neovim = {
+    enable = true;
+    withPython3 = true;
+    withRuby = true;
+    withNodeJs = true;
+    plugins = with pkgs.vimPlugins; [
+      popup-nvim
+      plenary-nvim
+      nvim-treesitter
+      nvim-treesitter-textobjects
+      nvim-lspconfig
+      telescope-nvim
+      telescope-file-browser-nvim
+      telescope-fzy-native-nvim
+      nvim-cmp
+      cmp-buffer
+      cmp-path
+      cmp-cmdline
+      cmp-nvim-lsp
+      cmp-nvim-lua
+      nvim-web-devicons
+      lualine-nvim
+      trouble-nvim
+      vim-commentary
+      vim-surround
+      vscode-nvim
+      indent-blankline-nvim
+    ];
+    extraConfig = ''
+    lua << EOF
+    vim.g.mapleader = ","
+    ${builtins.readFile ./nvim/options.lua}
+    ${builtins.readFile ./nvim/lsp.lua}
+    ${builtins.readFile ./nvim/treesitter.lua}
+    ${builtins.readFile ./nvim/telescope.lua}
+    ${builtins.readFile ./nvim/cmp.lua}
+    ${builtins.readFile ./nvim/lualine.lua}
+    ${builtins.readFile ./nvim/trouble.lua}
+    ${builtins.readFile ./nvim/indent.lua}
+    vim.cmd [[colorscheme vscode]]
+    EOF
+    hi Normal guibg=NONE ctermbg=NONE
+    hi LineNr guibg=NONE ctermbg=NONE
+    hi SignColumn guibg=NONE ctermbg=NONE
+    hi EndOfBuffer guibg=NONE ctermbg=NONE
+    ${builtins.readFile ./nvim/keymaps.vim}
+    '';
   };
 
   programs.tmux = {
@@ -78,4 +143,16 @@ in
       coc-nvim
     ];
   };
+
+  programs.zsh = {
+    enable = true;
+    enableAutosuggestions = true;
+    enableSyntaxHighlighting = true;
+    initExtra = builtins.readFile ./zshrc;
+    oh-my-zsh = {
+      enable = true;
+      plugins = [ "git" "z" "vi-mode" ];
+    };
+  };
+
 }

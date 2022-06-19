@@ -1,6 +1,6 @@
 {
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font",
     "editor.trimAutoWhitespace": true,
     "editor.formatOnSaveMode": "file",
     "editor.tabCompletion": "on",
@@ -74,4 +74,81 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "remote.SSH.defaultForwardedPorts": [
+        {
+            "name": "supervisord",
+            "localPort": 9001,
+            "remotePort": 9000
+        },
+        {
+            "name": "react_native_metro",
+            "localPort": 8081,
+            "remotePort": 8081
+        },
+        {
+            "name": "discord_marketing",
+            "localPort": 3334,
+            "remotePort": 3334
+        },
+        {
+            "name": "discord_web",
+            "localPort": 3333,
+            "remotePort": 3333
+        },
+        {
+            "name": "discord_developers",
+            "localPort": 3336,
+            "remotePort": 3336
+        },
+        {
+            "name": "elasticsearch",
+            "localPort": 9200,
+            "remotePort": 9200
+        },
+        {
+            "name": "elasticsearch",
+            "localPort": 9300,
+            "remotePort": 9300
+        },
+        {
+            "name": "discord_remote_auth_gateway",
+            "localPort": 3101,
+            "remotePort": 3101
+        },
+        {
+            "name": "discord_api",
+            "localPort": 3000,
+            "remotePort": 3000
+        },
+        {
+            "name": "discord_uikit",
+            "localPort": 6006,
+            "remotePort": 6006
+        },
+        {
+            "name": "smite_ui_api",
+            "localPort": 5004,
+            "remotePort": 5004
+        },
+        {
+            "name": "discord_admin_web",
+            "localPort": 6001,
+            "remotePort": 6001
+        },
+        {
+            "name": "discord_gateway",
+            "localPort": 3004,
+            "remotePort": 3004
+        },
+        {
+            "name": "discord_voice",
+            "localPort": 3002,
+            "remotePort": 3002
+        },
+        {
+            "name": "discord_admin",
+            "localPort": 6008,
+            "remotePort": 6008
+        }
+    ],
 }
