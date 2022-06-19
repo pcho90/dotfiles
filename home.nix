@@ -1,5 +1,7 @@
 { config, pkgs, ... }:
 
+let
+in
 {
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
@@ -17,15 +19,22 @@
   home.stateVersion = "22.05";
 
   home.packages = with pkgs; [
-    bat
     delta
     fzf
     ripgrep
     tree
+    nodejs
   ];
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  programs.bat = {
+    enable = true;
+    config = {
+      theme = "Visual Studio Dark+";
+    };
+  };
 
   programs.git = {
     enable = true;
@@ -57,5 +66,16 @@
 
   programs.vim = {
     enable = true;
+    extraConfig = builtins.readFile ./vimrc;
+    plugins = with pkgs.vimPlugins; [
+      vim-code-dark
+      vim-commentary
+      vim-surround
+      vim-unimpaired
+      vim-airline
+      vim-airline-themes
+      fzf-vim
+      coc-nvim
+    ];
   };
 }
