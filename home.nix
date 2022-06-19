@@ -1,75 +1,61 @@
-{ pkgs, host, system, overlays, ... }:
+{ config, pkgs, ... }:
 
-let
-  inherit (pkgs.stdenv.hostPlatform) isLinux isDarwin;
-  inherit (host) username;
-  inherit overlays;
+{
+  # Home Manager needs a bit of information about you and the
+  # paths it should manage.
+  home.username = "peter.cho";
+  home.homeDirectory = "/Users/peter.cho";
 
-  homeDirectory = if isDarwin then "/Users/${username}" else "/home/${username}";
-  packages = with pkgs; [
+  # This value determines the Home Manager release that your
+  # configuration is compatible with. This helps avoid breakage
+  # when a new Home Manager release introduces backwards
+  # incompatible changes.
+  #
+  # You can update Home Manager without changing this value. See
+  # the Home Manager release notes for a list of state version
+  # changes in each release.
+  home.stateVersion = "22.05";
+
+  home.packages = with pkgs; [
     bat
     delta
     fzf
     ripgrep
-    tmux
     tree
   ];
-in
-{
-  home = {
-    # Home Manager needs a bit of information about you and the
-    # paths it should manage.
-    inherit (host) username;
-    inherit homeDirectory packages;
 
-    file.".vimrc".source = ./vimrc;
+  # Let Home Manager install and manage itself.
+  programs.home-manager.enable = true;
 
-    # This value determines the Home Manager release that your
-    # configuration is compatible with. This helps avoid breakage
-    # when a new Home Manager release introduces backwards
-    # incompatible changes.
-    #
-    # You can update Home Manager without changing this value. See
-    # the Home Manager release notes for a list of state version
-    # changes in each release.
-    stateVersion = "22.05";
-  };
-
-  programs = {
-    # Let Home Manager install and manage itself.
-    home-manager.enable = true;
-    git = {
-      enable = true;
-      userName = "Peter Cho";
-      userEmail = "peter.cho@discordapp.com";
-      core.editor = "nvim";
-      core.pager = "delta";
-      interactive.diffFilter = "delta --color-only";
-      delta.navigate = true;
-      delta.light = false;
-      delta.side-by-side = true;
-      merge.conflictstyle = "diff3";
-      diff.colorMoved = "default";
-    };
-    fzf = {
-      enable = true;
-      enableZshIntegration = true;
-    };
-    zsh = {
-      enable = true;
-      enableCompletion = true;
-      enableAutosuggestions = true;
-      enableSyntaxHighlighting = true;
-      oh-my-zsh = {
-        enable = true;
-        plugins = [ "git" "z" "vi-mode" "zsh-autosuggestions" ];
-        theme = "robbyrussell";
+  programs.git = {
+    enable = true;
+    userName = "peter.cho";
+    userEmail = "peter.cho@discordapp.com";
+    extraConfig = {
+      core = {
+        pager = "delta";
       };
-      initExtra = (builtins.readFile ./zshrc);
+      delta = {
+        enable = true;
+        navigate = true;
+        side-by-side = true;
+      };
+      interactive = {
+        diffFilter = "delta --color-only";
+      };
     };
   };
 
-  services = { };
+  programs.tmux = {
+    enable = true;
+    keyMode = "vi";
+    terminal = "xterm-256color";
+    extraConfig = ''
+      set-option -g mouse on
+    '';
+  };
 
-  nixpkgs.overlays = overlays;
-};
+  programs.vim = {
+    enable = true;
+  };
+}
