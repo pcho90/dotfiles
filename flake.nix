@@ -9,6 +9,11 @@
   outputs = inputs@{ self, nixpkgs, home-manager, ... }:
   let
     hosts = {
+      coder = {
+        system = "x86_64-linux";
+        username = "discord";
+        email = "peter.cho@discordapp.com";
+      };
       discord-mbp = {
         system = "x86_64-darwin";
         username = "peter.cho";

@@ -91,8 +91,8 @@ in {
         indent-blankline-nvim
       ];
       extraConfig = ''
+      let mapleader = ","
       lua << EOF
-      vim.g.mapleader = ","
       ${builtins.readFile ./nvim/options.lua}
       ${builtins.readFile ./nvim/lsp.lua}
       ${builtins.readFile ./nvim/treesitter.lua}
@@ -101,8 +101,8 @@ in {
       ${builtins.readFile ./nvim/lualine.lua}
       ${builtins.readFile ./nvim/trouble.lua}
       ${builtins.readFile ./nvim/indent.lua}
-      vim.cmd [[colorscheme vscode]]
       EOF
+      colorscheme vscode
       hi Normal guibg=NONE ctermbg=NONE
       hi LineNr guibg=NONE ctermbg=NONE
       hi SignColumn guibg=NONE ctermbg=NONE

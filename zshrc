@@ -7,12 +7,11 @@ fi
 
 export EDITOR=nvim
 export VISUAL=nvim
-export ZSH="/Users/pcho/.oh-my-zsh"
+export ZSH="/Users/peter.cho/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs'
 export FZF_CTRL_T_COMMAND='rg --files --hidden --no-messages'
 export ZSH_AUTOSUGGESTION_STRATEGY=(history completion)
-export PATH="/Users/pcho/go/bin/:/opt/homebrew/opt/llvm/bin:$PATH"
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 export NVM_DIR="$HOME/.nvm"
