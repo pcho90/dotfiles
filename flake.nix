@@ -2,8 +2,8 @@
   description = "home manager flake";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
-    home-manager.url = "github:nix-community/home-manager";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.05";
+    home-manager.url = "github:nix-community/home-manager/release-22.05";
   };
 
   outputs = inputs@{ self, nixpkgs, home-manager, ... }:
@@ -32,4 +32,3 @@
     )) hosts;
   };
 }
-# /Users/peter.cho/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/bin:/bin:/usr/sbin:/sbin
