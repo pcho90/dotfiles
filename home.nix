@@ -18,6 +18,7 @@ in {
     inherit homeDirectory;
 
     packages = with pkgs; [
+      delta
       ripgrep
       tree
       zsh-powerlevel10k
@@ -55,6 +56,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
+          syntax-theme = "Visual Studio Dark+";
         };
         interactive = {
           diffFilter = "delta --color-only";

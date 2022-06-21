@@ -32,3 +32,4 @@
     )) hosts;
   };
 }
+# /Users/peter.cho/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/bin:/bin:/usr/sbin:/sbin
