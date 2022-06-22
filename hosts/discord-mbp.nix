@@ -8,7 +8,7 @@
   programs.zsh.envExtra =
     ''
       ${builtins.readFile ../config/zshenv}
-      SSH_AUTH_SOCK=$HOME/.ssh/agent
+      export SSH_AUTH_SOCK=$HOME/.ssh/agent
     '';
   home.file."Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
   home.file.".ssh/config".text =

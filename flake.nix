@@ -25,10 +25,29 @@
         username = "pcho";
       };
     };
-    buildConfig = import ./config.nix;
   in {
     homeConfigurations = builtins.mapAttrs (name: host: (
-      buildConfig { inherit nixpkgs home-manager host; }
+      let
+        inherit (host) system username email;
+        inherit (pkgs.stdenv.hostPlatform) isDarwin;
+
+        pkgs = import nixpkgs { inherit (host) system; };
+        homeDirectory = if isDarwin then "/Users/${username}" else "/home/${username}";
+      in home-manager.lib.homeManagerConfiguration {
+        inherit pkgs system username homeDirectory;
+
+        configuration = {
+          imports = [
+            ./common.nix
+            ./hosts/${host.name}.nix
+          ];
+
+          home.username = host.username;
+          home.homeDirectory = homeDirectory;
+        };
+
+        stateVersion = "22.05";
+      }
     )) hosts;
   };
 }
