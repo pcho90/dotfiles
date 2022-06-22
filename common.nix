@@ -14,6 +14,7 @@ in {
   home = {
     packages = with pkgs; [
       delta
+      openssh
       ripgrep
       tree
       zsh-powerlevel10k
