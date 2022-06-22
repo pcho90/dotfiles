@@ -10,19 +10,19 @@
   let
     hosts = {
       coder = {
+        name = "coder";
         system = "x86_64-linux";
         username = "discord";
-        email = "peter.cho@discordapp.com";
       };
       discord-mbp = {
+        name = "discord-mbp";
         system = "x86_64-darwin";
         username = "peter.cho";
-        email = "peter.cho@discordapp.com";
       };
       personal-mbp = {
+        name = "personal-mbp";
         system = "x86_64-darwin";
         username = "pcho";
-        email = "pcho51990@gmail.com";
       };
     };
     buildConfig = import ./config.nix;

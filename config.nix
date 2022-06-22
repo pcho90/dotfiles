@@ -9,7 +9,7 @@ let
 in home-manager.lib.homeManagerConfiguration {
   inherit pkgs system username homeDirectory;
 
-  configuration = import ./home.nix { inherit pkgs system host homeDirectory; };
+  configuration = import ./home.nix { inherit pkgs host homeDirectory; };
 
   stateVersion = "22.05";
 }
