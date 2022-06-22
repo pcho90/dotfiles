@@ -35,6 +35,6 @@
           ControlPersist 600
           ControlPath /Users/peter.cho/.ssh/.connection-coder-US_EAST-pcho90-dev
           ForwardAgent no
-      '';
+    '';
   };
 }
