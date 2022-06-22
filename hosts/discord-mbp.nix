@@ -1,18 +1,20 @@
 {
-  programs.git.userEmail = "peter.cho@discordapp.com";
+  programs = {
+    git.userEmail = "peter.cho@discordapp.com";
 
-  programs.zsh.initExtra =
-    ''
-      [ -f "$HOME/.nix-profile/etc/profile.d/nix.sh" ] && source "$HOME/.nix-profile/etc/profile.d/nix.sh"
-    '';
-  programs.zsh.envExtra =
-    ''
-      ${builtins.readFile ../config/zshenv}
-      export SSH_AUTH_SOCK=$HOME/.ssh/agent
-    '';
-  home.file."Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
-  home.file.".ssh/config".text =
-    ''
+    zsh = {
+      initExtra = ''
+        [ -f "$HOME/.nix-profile/etc/profile.d/nix.sh" ] && source "$HOME/.nix-profile/etc/profile.d/nix.sh"
+      '';
+      envExtra = ''
+        export SSH_AUTH_SOCK=$HOME/.ssh/agent
+      '';
+    };
+  };
+
+  home.file = {
+    "Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
+    ".ssh/config".text = ''
       Host *
           AddKeysToAgent yes
           IgnoreUnknown UseKeychain
@@ -33,5 +35,6 @@
           ControlPersist 600
           ControlPath /Users/peter.cho/.ssh/.connection-coder-US_EAST-pcho90-dev
           ForwardAgent no
-    '';
+      '';
+  };
 }

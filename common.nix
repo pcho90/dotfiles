@@ -87,29 +87,27 @@ in {
         indent-blankline-nvim
       ];
       extraConfig = ''
-      let mapleader = ","
-      lua << EOF
-      ${builtins.readFile ./config/nvim/options.lua}
-      ${builtins.readFile ./config/nvim/lsp.lua}
-      ${builtins.readFile ./config/nvim/treesitter.lua}
-      ${builtins.readFile ./config/nvim/telescope.lua}
-      ${builtins.readFile ./config/nvim/cmp.lua}
-      ${builtins.readFile ./config/nvim/lualine.lua}
-      ${builtins.readFile ./config/nvim/trouble.lua}
-      ${builtins.readFile ./config/nvim/indent.lua}
-      EOF
-      colorscheme vscode
-      hi Normal guibg=NONE ctermbg=NONE
-      hi LineNr guibg=NONE ctermbg=NONE
-      hi SignColumn guibg=NONE ctermbg=NONE
-      hi EndOfBuffer guibg=NONE ctermbg=NONE
-      ${builtins.readFile ./config/nvim/keymaps.vim}
+        let mapleader = ","
+        lua << EOF
+        ${builtins.readFile ./config/nvim/options.lua}
+        ${builtins.readFile ./config/nvim/lsp.lua}
+        ${builtins.readFile ./config/nvim/treesitter.lua}
+        ${builtins.readFile ./config/nvim/telescope.lua}
+        ${builtins.readFile ./config/nvim/cmp.lua}
+        ${builtins.readFile ./config/nvim/lualine.lua}
+        ${builtins.readFile ./config/nvim/trouble.lua}
+        ${builtins.readFile ./config/nvim/indent.lua}
+        EOF
+        colorscheme vscode
+        hi Normal guibg=NONE ctermbg=NONE
+        hi LineNr guibg=NONE ctermbg=NONE
+        hi SignColumn guibg=NONE ctermbg=NONE
+        hi EndOfBuffer guibg=NONE ctermbg=NONE
+        ${builtins.readFile ./config/nvim/keymaps.vim}
       '';
     };
 
-    ssh = {
-      enable = true;
-    };
+    ssh.enable = true;
 
     tmux = {
       enable = true;
@@ -140,6 +138,7 @@ in {
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
       initExtra = builtins.readFile ./config/zshrc;
+      envExtra = builtins.readFile ./config/zshenv;
       oh-my-zsh = {
         enable = true;
         plugins = [ "git" "z" "vi-mode" ];
