@@ -27,9 +27,7 @@ in {
 
     bat = {
       enable = true;
-      config = {
-        theme = "Visual Studio Dark+";
-      };
+      config.theme = "Visual Studio Dark+";
     };
 
     fzf = {
@@ -43,18 +41,14 @@ in {
       enable = true;
       userName = "pcho90";
       extraConfig = {
-        core = {
-          pager = "delta";
-        };
+        core.pager = "delta";
         delta = {
           enable = true;
           navigate = true;
           side-by-side = true;
           syntax-theme = "Visual Studio Dark+";
         };
-        interactive = {
-          diffFilter = "delta --color-only";
-        };
+        interactive.diffFilter = "delta --color-only";
       };
     };
 
