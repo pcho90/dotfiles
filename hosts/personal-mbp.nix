@@ -3,7 +3,6 @@
 
   programs.zsh.envExtra =
     ''
-      ${builtins.readFile ../config/zshenv}
       SSH_AUTH_SOCK=$HOME/.ssh/agent
     '';
 }
