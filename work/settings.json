@@ -1,12 +1,18 @@
 {
-    "editor.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font",
+    "editor.fontFamily": "Inconsolata Nerd Font",
+    "terminal.integrated.fontFamily": "Inconsolata Nerd Font",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.3,
+    "terminal.integrated.fontSize": 14,
     "editor.trimAutoWhitespace": true,
     "editor.formatOnSaveMode": "file",
     "editor.tabCompletion": "on",
     "editor.lineNumbers": "relative",
     "editor.cursorSurroundingLines": 8,
     "editor.minimap.enabled": false,
+    "editor.rulers": [
+        120
+    ],
     "workbench.activityBar.visible": false,
     "diffEditor.renderSideBySide": true,
     "files.insertFinalNewline": true,
