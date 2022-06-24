@@ -8,3 +8,4 @@ export FZF_CTRL_T_COMMAND='rg --files --hidden --no-messages'
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 export ZSH_AUTOSUGGESTION_STRATEGY=(history completion)
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
+export STARSHIP_CONFIG=~/.config/starship.toml

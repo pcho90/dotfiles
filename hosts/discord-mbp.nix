@@ -16,6 +16,7 @@
 
   home.file = {
     "Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
+    "/Users/peter.cho/.config/starship.toml".source = ../config/starship.toml;
     ".ssh/config".text = ''
       Host *
           AddKeysToAgent yes

@@ -1253,6 +1253,53 @@
                                         "name": "normal_mode",
                                         "type": "variable_if",
                                         "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "open_bracket",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "normal_mode",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "visual_mode",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "delete_mode",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "change_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "normal_mode",
+                                        "type": "variable_if",
+                                        "value": 1
                                     },
                                     {
                                         "name": "visual_mode",
@@ -1319,44 +1366,8 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "normal_mode",
-                                            "value": 0
-                                        }
+                                        "key_code": "right_arrow"
                                     },
-                                    {
-                                        "set_variable": {
-                                            "name": "visual_mode",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "delete_mode",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "change_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "normal_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "spacebar"
-                                },
-                                "to": [
                                     {
                                         "set_variable": {
                                             "name": "normal_mode",

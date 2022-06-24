@@ -36,53 +36,6 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "open_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_shift",
-                "left_command",
-                "left_control",
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "set_variable": {
-                "name": "normal_mode",
-                "value": 0
-              }
-            },
-            {
-              "set_variable": {
-                "name": "visual_mode",
-                "value": 0
-              }
-            },
-            {
-              "set_variable": {
-                "name": "delete_mode",
-                "value": 0
-              }
-            },
-            {
-              "set_variable": {
-                "name": "change_mode",
-                "value": 0
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "normal_mode",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
             "key_code": "v"
           },
           "to": [
@@ -146,8 +99,44 @@
           },
           "to": [
             {
-              "key_code": "right_arrow"
+              "set_variable": {
+                "name": "normal_mode",
+                "value": 0
+              }
             },
+            {
+              "set_variable": {
+                "name": "visual_mode",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "delete_mode",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "change_mode",
+                "value": 0
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "normal_mode",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar"
+          },
+          "to": [
             {
               "set_variable": {
                 "name": "normal_mode",
