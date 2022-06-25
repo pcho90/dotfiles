@@ -1,5 +1,5 @@
 {
-  "title": "Vim Mode",
+  "title": "Vim mode",
   "rules": [
     {
       "description": "Vim mode toggled by hyper+[",

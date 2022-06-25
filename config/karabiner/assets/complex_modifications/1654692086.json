@@ -1,8 +1,8 @@
 {
-  "title": "Launch websites with hyper + letters",
+  "title": "Launch websites with hyper",
   "rules": [
     {
-      "description": "Launch websites with hyper + letters",
+      "description": "Launch websites with hyper",
       "manipulators": [
         {
           "from": {
@@ -16,7 +16,7 @@
               ]
             }
           },
-          "to": [{ "shell_command": "open 'https://mail.google.com'" }],
+          "to": [{ "shell_command": "open 'https://mail.google.com/'" }],
           "type": "basic"
         },
         {
@@ -48,7 +48,7 @@
               ]
             }
           },
-          "to": [{ "shell_command": "open 'https://calendar.google.com'" }],
+          "to": [{ "shell_command": "open 'https://calendar.google.com/'" }],
           "type": "basic"
         },
         {
@@ -64,6 +64,51 @@
             }
           },
           "to": [{ "shell_command": "open 'https://github.com/pulls'" }],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [{ "shell_command": "open 'https://notion.so/'" }],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [{ "shell_command": "open 'https://asana.com/'" }],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [{ "shell_command": "open 'https://app.datadoghq.com/logs'" }],
           "type": "basic"
         }
       ]

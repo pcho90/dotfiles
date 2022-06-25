@@ -155,5 +155,6 @@
             "localPort": 6008,
             "remotePort": 6008
         }
-    ]
+    ],
+    "files.autoSave": "afterDelay"
 }
