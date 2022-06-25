@@ -8,6 +8,7 @@
         launchctl disable user/$UID/com.openssh.ssh-agent
         launchctl load -w ~/Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist > /dev/null 2>&1
       '';
+
       envExtra = ''
         export SSH_AUTH_SOCK=$HOME/.ssh/agent
       '';
@@ -16,7 +17,7 @@
 
   home.file = {
     "Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
-    "/Users/peter.cho/.config/starship.toml".source = ../config/starship.toml;
+
     ".ssh/config".text = ''
       Host *
           AddKeysToAgent yes

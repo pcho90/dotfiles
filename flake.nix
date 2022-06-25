@@ -14,11 +14,13 @@
         system = "x86_64-linux";
         username = "discord";
       };
+
       discord-mbp = {
         name = "discord-mbp";
         system = "x86_64-darwin";
         username = "peter.cho";
       };
+
       personal-mbp = {
         name = "personal-mbp";
         system = "x86_64-darwin";
@@ -36,16 +38,7 @@
       in home-manager.lib.homeManagerConfiguration {
         inherit pkgs system username homeDirectory;
 
-        configuration = {
-          imports = [
-            ./common.nix
-            ./hosts/${host.name}.nix
-          ];
-
-          home.username = host.username;
-          home.homeDirectory = homeDirectory;
-        };
-
+        configuration = import ./common.nix { inherit pkgs username homeDirectory; };
         stateVersion = "22.05";
       }
     )) hosts;

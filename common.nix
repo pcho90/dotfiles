@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, username, homeDirectory, ... }:
 
 let
   vscode-nvim = pkgs.vimUtils.buildVimPlugin {
     name = "vscode-nvim";
+
     src = pkgs.fetchFromGitHub {
       owner = "Mofiqul";
       repo = "vscode.nvim";
@@ -12,6 +13,8 @@ let
   };
 in {
   home = {
+    inherit username homeDirectory;
+
     packages = with pkgs; [
       delta
       fd
@@ -20,6 +23,9 @@ in {
       tree
       zsh-powerlevel10k
     ];
+
+    file."${homeDirectory}/.config/starship.toml".source = ./config/starship.toml;
+
     stateVersion = "22.05";
   };
 
@@ -41,14 +47,17 @@ in {
     git = {
       enable = true;
       userName = "pcho90";
+
       extraConfig = {
         core.pager = "delta";
+
         delta = {
           enable = true;
           navigate = true;
           side-by-side = true;
           syntax-theme = "Visual Studio Dark+";
         };
+
         interactive.diffFilter = "delta --color-only";
       };
     };
@@ -58,6 +67,7 @@ in {
       withPython3 = true;
       withRuby = true;
       withNodeJs = true;
+
       plugins = with pkgs.vimPlugins; [
         popup-nvim
         plenary-nvim
@@ -81,6 +91,7 @@ in {
         vscode-nvim
         indent-blankline-nvim
       ];
+
       extraConfig = ''
         let mapleader = ","
         lua << EOF
@@ -109,6 +120,7 @@ in {
       enable = true;
       keyMode = "vi";
       terminal = "xterm-256color";
+
       extraConfig = ''
         set-option -g mouse on
       '';
@@ -117,6 +129,7 @@ in {
     vim = {
       enable = true;
       extraConfig = builtins.readFile ./config/vimrc;
+
       plugins = with pkgs.vimPlugins; [
         vim-code-dark
         vim-commentary
@@ -133,8 +146,10 @@ in {
       enable = true;
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
+
       initExtra = builtins.readFile ./config/zshrc;
       envExtra = builtins.readFile ./config/zshenv;
+
       oh-my-zsh = {
         enable = true;
         plugins = [ "git" "z" "vi-mode" ];
