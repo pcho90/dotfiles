@@ -12,6 +12,7 @@
     "editor.rulers": [
         120
     ],
+    "editor.minimap.enabled": false,
     "diffEditor.renderSideBySide": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -154,6 +155,5 @@
             "localPort": 6008,
             "remotePort": 6008
         }
-    ],
-    "editor.minimap.enabled": false,
+    ]
 }
