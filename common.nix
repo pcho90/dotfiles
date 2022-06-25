@@ -1,4 +1,4 @@
-{ pkgs, host, homeDirectory, ... }:
+{ pkgs, host, homeDirectory, isDarwin, ... }:
 
 let
   vscode-nvim = pkgs.vimUtils.buildVimPlugin {
@@ -12,9 +12,8 @@ let
     };
   };
 in {
-  imports = [
-    ./hosts/${host.name}.nix
-  ];
+  imports = [ ./hosts/${host.name}.nix ]
+    ++ (if isDarwin then [ ./darwin.nix ] else [ ]);
 
   home = {
     inherit (host) username;
@@ -53,6 +52,8 @@ in {
       userName = "pcho90";
 
       extraConfig = {
+        pull.rebase = true;
+        fetch.prune = true;
         core.pager = "delta";
 
         delta = {
