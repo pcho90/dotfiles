@@ -1,4 +1,4 @@
-{ pkgs, username, homeDirectory, ... }:
+{ pkgs, host, homeDirectory, ... }:
 
 let
   vscode-nvim = pkgs.vimUtils.buildVimPlugin {
@@ -12,8 +12,13 @@ let
     };
   };
 in {
+  imports = [
+    ./hosts/${host.name}.nix
+  ];
+
   home = {
-    inherit username homeDirectory;
+    inherit (host) username;
+    inherit homeDirectory;
 
     packages = with pkgs; [
       delta
@@ -21,7 +26,6 @@ in {
       openssh
       ripgrep
       tree
-      zsh-powerlevel10k
     ];
 
     file."${homeDirectory}/.config/starship.toml".source = ./config/starship.toml;

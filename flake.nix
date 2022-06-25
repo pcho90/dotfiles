@@ -38,7 +38,7 @@
       in home-manager.lib.homeManagerConfiguration {
         inherit pkgs system username homeDirectory;
 
-        configuration = import ./common.nix { inherit pkgs username homeDirectory; };
+        configuration = import ./common.nix { inherit pkgs host homeDirectory; };
         stateVersion = "22.05";
       }
     )) hosts;

@@ -5,8 +5,6 @@
     zsh = {
       initExtra = ''
         [ -f "$HOME/.nix-profile/etc/profile.d/nix.sh" ] && source "$HOME/.nix-profile/etc/profile.d/nix.sh"
-        launchctl disable user/$UID/com.openssh.ssh-agent
-        launchctl load -w ~/Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist > /dev/null 2>&1
       '';
 
       envExtra = ''
