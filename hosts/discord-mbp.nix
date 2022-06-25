@@ -38,6 +38,10 @@
           ControlPath /Users/peter.cho/.ssh/.connection-coder-US_EAST-pcho90-dev
           ForwardAgent no
           UpdateHostKeys no
+
+        Host gh
+            HostName github.com
+            User git
     '';
   };
 }

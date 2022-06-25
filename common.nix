@@ -52,9 +52,14 @@ in {
       userName = "pcho90";
 
       extraConfig = {
-        pull.rebase = true;
-        fetch.prune = true;
         core.pager = "delta";
+        fetch.prune = true;
+        merge.conflictSTyle = "diff3";
+
+        pull = {
+          rebase = true;
+          ff = "only";
+        };
 
         delta = {
           enable = true;
