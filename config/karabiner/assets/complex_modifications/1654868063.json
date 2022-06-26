@@ -54,22 +54,6 @@
         },
         {
           "from": {
-            "key_code": "open_bracket",
-            "modifiers": { "mandatory": ["left_option"] }
-          },
-          "to": [{ "key_code": "left_arrow" }],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "close_bracket",
-            "modifiers": { "mandatory": ["left_option"] }
-          },
-          "to": [{ "key_code": "right_arrow" }],
-          "type": "basic"
-        },
-        {
-          "from": {
             "key_code": "d",
             "modifiers": { "mandatory": ["left_option"] }
           },
