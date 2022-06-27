@@ -22,6 +22,7 @@ in {
     packages = with pkgs; [
       delta
       fd
+      htop
       openssh
       ripgrep
       tree
