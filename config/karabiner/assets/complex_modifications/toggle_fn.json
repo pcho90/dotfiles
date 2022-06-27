@@ -67,9 +67,7 @@
           "from": {
             "key_code": "1",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -90,9 +88,7 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -113,9 +109,7 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -136,9 +130,7 @@
           "from": {
             "key_code": "4",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -159,9 +151,7 @@
           "from": {
             "key_code": "5",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -182,9 +172,7 @@
           "from": {
             "key_code": "6",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -205,9 +193,7 @@
           "from": {
             "key_code": "7",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -228,9 +214,7 @@
           "from": {
             "key_code": "8",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -251,9 +235,7 @@
           "from": {
             "key_code": "9",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -274,9 +256,7 @@
           "from": {
             "key_code": "0",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -297,9 +277,7 @@
           "from": {
             "key_code": "hypen",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -320,9 +298,7 @@
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
