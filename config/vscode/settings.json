@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "GitHub Dark Default",
   "editor.fontFamily": "Inconsolata Nerd Font",
   "terminal.integrated.fontFamily": "Inconsolata Nerd Font",
   "editor.fontSize": 14,
@@ -207,6 +208,6 @@
     }
   ],
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
