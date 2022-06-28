@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Kanagawa",
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.trimAutoWhitespace": true,
@@ -6,7 +7,9 @@
   "editor.tabCompletion": "on",
   "editor.lineNumbers": "relative",
   "editor.cursorSurroundingLines": 8,
-  "editor.rulers": [120],
+  "editor.rulers": [
+    120
+  ],
   "editor.minimap.enabled": false,
   "diffEditor.renderSideBySide": true,
   "files.autoSave": "afterDelay",
@@ -45,119 +48,287 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["g", "w"],
-      "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]
+      "before": [
+        "g",
+        "w"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "<leader>",
+        "b",
+        "d",
+        "w"
+      ]
     },
     {
-      "before": ["g", "D"],
-      "commands": ["editor.action.peekDefinition"]
+      "before": [
+        "g",
+        "D"
+      ],
+      "commands": [
+        "editor.action.peekDefinition"
+      ]
     },
     {
-      "before": ["g", "r"],
-      "commands": ["editor.action.referenceSearch.trigger"]
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger"
+      ]
     },
     {
-      "before": ["K"],
-      "commands": ["editor.action.showDefinitionPreviewHover"]
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showDefinitionPreviewHover"
+      ]
     },
     {
-      "before": ["<CR>"],
-      "commands": [":nohl"]
+      "before": [
+        "<CR>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     },
     {
-      "before": ["<C-j>"],
-      "after": ["<C-w>", "j"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
     },
     {
-      "before": ["<C-k>"],
-      "after": ["<C-w>", "k"]
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
     },
     {
-      "before": ["<C-h>"],
-      "after": ["<C-w>", "h"]
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
     },
     {
-      "before": ["<C-l>"],
-      "after": ["<C-w>", "l"]
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
     },
     {
-      "before": ["<space>", "w", "v"],
-      "after": ["<C-w>", "v"]
+      "before": [
+        "<space>",
+        "w",
+        "v"
+      ],
+      "after": [
+        "<C-w>",
+        "v"
+      ]
     },
     {
-      "before": ["<space>", "w", "s"],
-      "after": ["<C-w>", "s"]
+      "before": [
+        "<space>",
+        "w",
+        "s"
+      ],
+      "after": [
+        "<C-w>",
+        "s"
+      ]
     },
     {
-      "before": ["<space>", "t", "o"],
-      "commands": [":tabo"]
+      "before": [
+        "<space>",
+        "t",
+        "o"
+      ],
+      "commands": [
+        ":tabo"
+      ]
     },
     {
-      "before": ["<space>", "w", "j"],
-      "commands": ["workbench.action.moveEditorToBelowGroup"]
+      "before": [
+        "<space>",
+        "w",
+        "j"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToBelowGroup"
+      ]
     },
     {
-      "before": ["<space>", "w", "k"],
-      "commands": ["workbench.action.moveEditorToAboveGroup"]
+      "before": [
+        "<space>",
+        "w",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToAboveGroup"
+      ]
     },
     {
-      "before": ["<space>", "w", "h"],
-      "commands": ["workbench.action.moveEditorToLeftGroup"]
+      "before": [
+        "<space>",
+        "w",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToLeftGroup"
+      ]
     },
     {
-      "before": ["<space>", "w", "l"],
-      "commands": ["workbench.action.moveEditorToRightGroup"]
+      "before": [
+        "<space>",
+        "w",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToRightGroup"
+      ]
     },
     {
-      "before": ["<space>", "s", "o"],
-      "commands": ["search.action.openEditor"]
+      "before": [
+        "<space>",
+        "s",
+        "o"
+      ],
+      "commands": [
+        "search.action.openEditor"
+      ]
     },
     {
-      "before": ["<space>", "s", "v"],
-      "commands": ["search.action.openNewEditorToSide"]
+      "before": [
+        "<space>",
+        "s",
+        "v"
+      ],
+      "commands": [
+        "search.action.openNewEditorToSide"
+      ]
     },
     {
-      "before": ["<space>", "t", "l"],
-      "commands": ["workbench.action.closeEditorsToTheLeft"]
+      "before": [
+        "<space>",
+        "t",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.closeEditorsToTheLeft"
+      ]
     },
     {
-      "before": ["<space>", "t", "r"],
-      "commands": ["workbench.action.closeEditorsToTheRight"]
+      "before": [
+        "<space>",
+        "t",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.closeEditorsToTheRight"
+      ]
     },
     {
-      "before": ["<space>", "f", "d"],
-      "commands": ["editor.action.formatDocument"]
+      "before": [
+        "<space>",
+        "f",
+        "d"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
     },
     {
-      "before": ["<space>", "f", "s"],
-      "commands": ["editor.action.formatSelection"]
+      "before": [
+        "<space>",
+        "f",
+        "s"
+      ],
+      "commands": [
+        "editor.action.formatSelection"
+      ]
     },
     {
-      "before": ["<space>", "v", "e"],
-      "commands": ["workbench.view.explorer"]
+      "before": [
+        "<space>",
+        "v",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
     },
     {
-      "before": ["<space>", "v", "s"],
-      "commands": ["workbench.view.search"]
+      "before": [
+        "<space>",
+        "v",
+        "s"
+      ],
+      "commands": [
+        "workbench.view.search"
+      ]
     },
     {
-      "before": ["<space>", "v", "r"],
-      "commands": ["workbench.action.replaceInFiles"]
+      "before": [
+        "<space>",
+        "v",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.replaceInFiles"
+      ]
     },
     {
-      "before": ["<space>", "v", "g"],
-      "commands": ["workbench.view.scm"]
+      "before": [
+        "<space>",
+        "v",
+        "g"
+      ],
+      "commands": [
+        "workbench.view.scm"
+      ]
     },
     {
-      "before": ["<space>", "v", "x"],
-      "commands": ["workbench.view.extensions"]
+      "before": [
+        "<space>",
+        "v",
+        "x"
+      ],
+      "commands": [
+        "workbench.view.extensions"
+      ]
     },
     {
-      "before": ["<space>", "g", "h"],
-      "commands": ["gitlens.showQuickFileHistory"]
+      "before": [
+        "<space>",
+        "g",
+        "h"
+      ],
+      "commands": [
+        "gitlens.showQuickFileHistory"
+      ]
     },
     {
-      "before": ["<space>", "g", "o"],
+      "before": [
+        "<space>",
+        "g",
+        "o"
+      ],
       "commands": [
         "workbench.action.compareEditor.focusOtherSide",
         {
@@ -169,74 +340,171 @@
       ]
     },
     {
-      "before": ["<space>", "g", "f"],
-      "commands": ["gitlens.showQuickFileHistory"]
+      "before": [
+        "<space>",
+        "g",
+        "f"
+      ],
+      "commands": [
+        "gitlens.showQuickFileHistory"
+      ]
     },
     {
-      "before": ["<space>", "g", "p"],
-      "commands": ["gitlens.diffWithPrevious"]
+      "before": [
+        "<space>",
+        "g",
+        "p"
+      ],
+      "commands": [
+        "gitlens.diffWithPrevious"
+      ]
     },
     {
-      "before": ["<space>", "g", "n"],
-      "commands": ["gitlens.diffWithNext"]
+      "before": [
+        "<space>",
+        "g",
+        "n"
+      ],
+      "commands": [
+        "gitlens.diffWithNext"
+      ]
     },
     {
-      "before": ["<space>", "g", "j"],
-      "commands": ["workbench.action.editor.nextChange"]
+      "before": [
+        "<space>",
+        "g",
+        "j"
+      ],
+      "commands": [
+        "workbench.action.editor.nextChange"
+      ]
     },
     {
-      "before": ["<space>", "g", "k"],
-      "commands": ["workbench.action.editor.previousChange"]
+      "before": [
+        "<space>",
+        "g",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.editor.previousChange"
+      ]
     },
     {
-      "before": ["<space>", "v", "b"],
-      "commands": ["bookmarksExplorer.focus"]
+      "before": [
+        "<space>",
+        "v",
+        "b"
+      ],
+      "commands": [
+        "bookmarksExplorer.focus"
+      ]
     },
     {
-      "before": ["<space>", "b", "m"],
-      "commands": ["bookmarks.toggle"]
+      "before": [
+        "<space>",
+        "b",
+        "m"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ]
     },
     {
-      "before": ["<space>", "b", "l"],
-      "commands": ["bookmarks.list"]
+      "before": [
+        "<space>",
+        "b",
+        "l"
+      ],
+      "commands": [
+        "bookmarks.list"
+      ]
     },
     {
-      "before": ["<space>", "b", "a"],
-      "commands": ["bookmarks.listFromAllFiles"]
+      "before": [
+        "<space>",
+        "b",
+        "a"
+      ],
+      "commands": [
+        "bookmarks.listFromAllFiles"
+      ]
     },
     {
-      "before": ["<space>", "b", "c"],
-      "commands": ["bookmarks.clear"]
+      "before": [
+        "<space>",
+        "b",
+        "c"
+      ],
+      "commands": [
+        "bookmarks.clear"
+      ]
     },
     {
-      "before": ["<space>", "b", "p"],
-      "commands": ["bookmarks.jumpToPrevious"]
+      "before": [
+        "<space>",
+        "b",
+        "p"
+      ],
+      "commands": [
+        "bookmarks.jumpToPrevious"
+      ]
     },
     {
-      "before": ["<space>", "b", "n"],
-      "commands": ["bookmarks.jumpToNext"]
+      "before": [
+        "<space>",
+        "b",
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToNext"
+      ]
     }
   ],
   "vim.operatorPendingModeKeyBindings": [
     {
-      "before": ["L"],
-      "after": ["$"]
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
     },
     {
-      "before": ["H"],
-      "after": ["^"]
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": ["p"],
-      "after": ["p", "g", "v", "y"]
+      "before": [
+        "p"
+      ],
+      "after": [
+        "p",
+        "g",
+        "v",
+        "y"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "r"
+      ],
+      "commands": [
+        "git.revertSelectedRanges"
+      ]
     }
   ],
   "python.languageServer": "Default",
   "security.workspace.trust.untrustedFiles": "open",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "remote.SSH.defaultForwardedPorts": [
     {
@@ -316,7 +584,6 @@
     }
   ],
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.colorTheme": "Kanagawa"
 }

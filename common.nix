@@ -30,6 +30,7 @@ in {
     inherit homeDirectory;
 
     packages = with pkgs; [
+      curl
       delta
       fd
       htop
