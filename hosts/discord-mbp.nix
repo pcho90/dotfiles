@@ -14,6 +14,7 @@
 
   home.file = {
     "Library/LaunchAgents/com.zerowidth.launched.ssh_agent.plist".source = ../config/ssh/agent.plist;
+    "$HOME/.gnupg/gpg-agent.conf".source = ../config/gpg-agent.conf;
 
     ".ssh/config".text = ''
       Host coder.pcho90-dev

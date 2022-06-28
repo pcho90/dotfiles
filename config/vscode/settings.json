@@ -14,7 +14,7 @@
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "git.autofetch": true,
-  "vim.leader": " ",
+  "vim.leader": ",",
   "vim.easymotion": true,
   "vim.camelCaseMotion.enable": true,
   "vim.useSystemClipboard": true,
@@ -49,6 +49,14 @@
       "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]
     },
     {
+      "before": ["g", "D"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
       "before": ["K"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
     },
@@ -73,36 +81,140 @@
       "after": ["<C-w>", "l"]
     },
     {
-      "before": ["<leader>", "m"],
-      "commands": ["bookmarks.toggle"]
-    },
-    {
-      "before": ["<leader>", "l"],
-      "commands": ["bookmarks.list"]
-    },
-    {
-      "before": ["<leader>", "v"],
+      "before": ["<space>", "w", "v"],
       "after": ["<C-w>", "v"]
     },
     {
-      "before": ["<leader>", "s"],
+      "before": ["<space>", "w", "s"],
       "after": ["<C-w>", "s"]
     },
     {
-      "before": ["<leader>", "t"],
+      "before": ["<space>", "t", "o"],
       "commands": [":tabo"]
     },
     {
-      "before": ["<leader>", "f"],
+      "before": ["<space>", "w", "j"],
+      "commands": ["workbench.action.moveEditorToBelowGroup"]
+    },
+    {
+      "before": ["<space>", "w", "k"],
+      "commands": ["workbench.action.moveEditorToAboveGroup"]
+    },
+    {
+      "before": ["<space>", "w", "h"],
+      "commands": ["workbench.action.moveEditorToLeftGroup"]
+    },
+    {
+      "before": ["<space>", "w", "l"],
+      "commands": ["workbench.action.moveEditorToRightGroup"]
+    },
+    {
+      "before": ["<space>", "s", "o"],
+      "commands": ["search.action.openEditor"]
+    },
+    {
+      "before": ["<space>", "s", "v"],
+      "commands": ["search.action.openNewEditorToSide"]
+    },
+    {
+      "before": ["<space>", "t", "l"],
+      "commands": ["workbench.action.closeEditorsToTheLeft"]
+    },
+    {
+      "before": ["<space>", "t", "r"],
+      "commands": ["workbench.action.closeEditorsToTheRight"]
+    },
+    {
+      "before": ["<space>", "f", "d"],
       "commands": ["editor.action.formatDocument"]
     },
     {
-      "before": ["<leader>", "g"],
+      "before": ["<space>", "f", "s"],
+      "commands": ["editor.action.formatSelection"]
+    },
+    {
+      "before": ["<space>", "v", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<space>", "v", "s"],
+      "commands": ["workbench.view.search"]
+    },
+    {
+      "before": ["<space>", "v", "r"],
+      "commands": ["workbench.action.replaceInFiles"]
+    },
+    {
+      "before": ["<space>", "v", "g"],
       "commands": ["workbench.view.scm"]
     },
     {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "before": ["<space>", "v", "x"],
+      "commands": ["workbench.view.extensions"]
+    },
+    {
+      "before": ["<space>", "g", "h"],
+      "commands": ["gitlens.showQuickFileHistory"]
+    },
+    {
+      "before": ["<space>", "g", "o"],
+      "commands": [
+        "workbench.action.compareEditor.focusOtherSide",
+        {
+          "command": "cursorMove",
+          "args": {
+            "to": "viewPortCenter"
+          }
+        }
+      ]
+    },
+    {
+      "before": ["<space>", "g", "f"],
+      "commands": ["gitlens.showQuickFileHistory"]
+    },
+    {
+      "before": ["<space>", "g", "p"],
+      "commands": ["gitlens.diffWithPrevious"]
+    },
+    {
+      "before": ["<space>", "g", "n"],
+      "commands": ["gitlens.diffWithNext"]
+    },
+    {
+      "before": ["<space>", "g", "j"],
+      "commands": ["workbench.action.editor.nextChange"]
+    },
+    {
+      "before": ["<space>", "g", "k"],
+      "commands": ["workbench.action.editor.previousChange"]
+    },
+    {
+      "before": ["<space>", "v", "b"],
+      "commands": ["bookmarksExplorer.focus"]
+    },
+    {
+      "before": ["<space>", "b", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<space>", "b", "l"],
+      "commands": ["bookmarks.list"]
+    },
+    {
+      "before": ["<space>", "b", "a"],
+      "commands": ["bookmarks.listFromAllFiles"]
+    },
+    {
+      "before": ["<space>", "b", "c"],
+      "commands": ["bookmarks.clear"]
+    },
+    {
+      "before": ["<space>", "b", "p"],
+      "commands": ["bookmarks.jumpToPrevious"]
+    },
+    {
+      "before": ["<space>", "b", "n"],
+      "commands": ["bookmarks.jumpToNext"]
     }
   ],
   "vim.operatorPendingModeKeyBindings": [
@@ -205,5 +317,6 @@
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorTheme": "GitHub Dark Default"
 }
