@@ -317,7 +317,7 @@
       "before": [
         "<space>",
         "g",
-        "h"
+        "f"
       ],
       "commands": [
         "gitlens.showQuickFileHistory"
@@ -343,30 +343,20 @@
       "before": [
         "<space>",
         "g",
-        "f"
+        "h"
       ],
       "commands": [
-        "gitlens.showQuickFileHistory"
+        "editor.action.dirtydiff.previous"
       ]
     },
     {
       "before": [
         "<space>",
         "g",
-        "p"
+        "l"
       ],
       "commands": [
-        "gitlens.diffWithPrevious"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "n"
-      ],
-      "commands": [
-        "gitlens.diffWithNext"
+        "editor.action.dirtydiff.next"
       ]
     },
     {
@@ -387,6 +377,26 @@
       ],
       "commands": [
         "workbench.action.editor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "["
+      ],
+      "commands": [
+        "gitlens.diffWithPrevious"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "]"
+      ],
+      "commands": [
+        "gitlens.diffWithNext"
       ]
     },
     {
@@ -443,6 +453,16 @@
       "before": [
         "<space>",
         "b",
+        "r"
+      ],
+      "commands": [
+        "bookmarks.clearFromAllFiles"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "b",
         "p"
       ],
       "commands": [
@@ -457,6 +477,46 @@
       ],
       "commands": [
         "bookmarks.jumpToNext"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "d",
+        "h"
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "d",
+        "l"
+      ],
+      "commands": [
+        "editor.action.marker.prevInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "d",
+        "j"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "d",
+        "k"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
       ]
     }
   ],
