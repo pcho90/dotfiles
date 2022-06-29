@@ -8,7 +8,7 @@
 	<array>
 		<string>sh</string>
 		<string>-c</string>
-		<string>/Users/peter.cho/.nix-profile/bin/ssh-agent -D -a ~/.ssh/agent</string>
+		<string>/Users/pcho/.nix-profile/bin/ssh-agent -D -a ~/.ssh/agent</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
