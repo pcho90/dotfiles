@@ -17,7 +17,7 @@
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "git.autofetch": true,
-  "vim.leader": ",",
+  "vim.leader": " ",
   "vim.easymotion": true,
   "vim.camelCaseMotion.enable": true,
   "vim.useSystemClipboard": true,
@@ -102,7 +102,7 @@
       "after": [
         "<C-w>",
         "j"
-      ]
+      ],
     },
     {
       "before": [
@@ -134,7 +134,6 @@
     {
       "before": [
         "<space>",
-        "w",
         "v"
       ],
       "after": [
@@ -145,7 +144,6 @@
     {
       "before": [
         "<space>",
-        "w",
         "s"
       ],
       "after": [
@@ -166,7 +164,7 @@
     {
       "before": [
         "<space>",
-        "w",
+        "t",
         "j"
       ],
       "commands": [
@@ -176,7 +174,7 @@
     {
       "before": [
         "<space>",
-        "w",
+        "t",
         "k"
       ],
       "commands": [
@@ -186,7 +184,7 @@
     {
       "before": [
         "<space>",
-        "w",
+        "t",
         "h"
       ],
       "commands": [
@@ -196,7 +194,7 @@
     {
       "before": [
         "<space>",
-        "w",
+        "t",
         "l"
       ],
       "commands": [
@@ -206,7 +204,7 @@
     {
       "before": [
         "<space>",
-        "s",
+        "f",
         "o"
       ],
       "commands": [
@@ -216,7 +214,7 @@
     {
       "before": [
         "<space>",
-        "s",
+        "f",
         "v"
       ],
       "commands": [
@@ -227,7 +225,7 @@
       "before": [
         "<space>",
         "t",
-        "l"
+        "a"
       ],
       "commands": [
         "workbench.action.closeEditorsToTheLeft"
@@ -237,7 +235,7 @@
       "before": [
         "<space>",
         "t",
-        "r"
+        "e"
       ],
       "commands": [
         "workbench.action.closeEditorsToTheRight"
@@ -261,56 +259,6 @@
       ],
       "commands": [
         "editor.action.formatSelection"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v",
-        "e"
-      ],
-      "commands": [
-        "workbench.view.explorer"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v",
-        "s"
-      ],
-      "commands": [
-        "workbench.view.search"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v",
-        "r"
-      ],
-      "commands": [
-        "workbench.action.replaceInFiles"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v",
-        "g"
-      ],
-      "commands": [
-        "workbench.view.scm"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v",
-        "x"
-      ],
-      "commands": [
-        "workbench.view.extensions"
       ]
     },
     {
@@ -346,7 +294,7 @@
         "h"
       ],
       "commands": [
-        "editor.action.dirtydiff.previous"
+        "gitlens.diffWithPrevious"
       ]
     },
     {
@@ -356,54 +304,14 @@
         "l"
       ],
       "commands": [
-        "editor.action.dirtydiff.next"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "j"
-      ],
-      "commands": [
-        "workbench.action.editor.nextChange"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "k"
-      ],
-      "commands": [
-        "workbench.action.editor.previousChange"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "["
-      ],
-      "commands": [
-        "gitlens.diffWithPrevious"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "]"
-      ],
-      "commands": [
         "gitlens.diffWithNext"
       ]
     },
     {
       "before": [
         "<space>",
-        "v",
-        "b"
+        "m",
+        "v"
       ],
       "commands": [
         "bookmarksExplorer.focus"
@@ -412,7 +320,7 @@
     {
       "before": [
         "<space>",
-        "b",
+        "m",
         "m"
       ],
       "commands": [
@@ -422,7 +330,7 @@
     {
       "before": [
         "<space>",
-        "b",
+        "m",
         "l"
       ],
       "commands": [
@@ -432,7 +340,7 @@
     {
       "before": [
         "<space>",
-        "b",
+        "m",
         "a"
       ],
       "commands": [
@@ -442,7 +350,7 @@
     {
       "before": [
         "<space>",
-        "b",
+        "m",
         "c"
       ],
       "commands": [
@@ -452,7 +360,7 @@
     {
       "before": [
         "<space>",
-        "b",
+        "m",
         "r"
       ],
       "commands": [
@@ -461,9 +369,8 @@
     },
     {
       "before": [
-        "<space>",
-        "b",
-        "p"
+        "[",
+        "m"
       ],
       "commands": [
         "bookmarks.jumpToPrevious"
@@ -471,9 +378,8 @@
     },
     {
       "before": [
-        "<space>",
-        "b",
-        "n"
+        "]",
+        "m"
       ],
       "commands": [
         "bookmarks.jumpToNext"
@@ -481,19 +387,8 @@
     },
     {
       "before": [
-        "<space>",
-        "d",
-        "h"
-      ],
-      "commands": [
-        "editor.action.marker.nextInFiles"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "d",
-        "l"
+        "[",
+        "D"
       ],
       "commands": [
         "editor.action.marker.prevInFiles"
@@ -501,9 +396,26 @@
     },
     {
       "before": [
-        "<space>",
-        "d",
-        "j"
+        "]",
+        "D"
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
       ],
       "commands": [
         "editor.action.marker.next"
@@ -511,14 +423,40 @@
     },
     {
       "before": [
-        "<space>",
-        "d",
-        "k"
+        "[",
+        "C",
       ],
       "commands": [
-        "editor.action.marker.prev"
+        "editor.action.dirtydiff.next"
       ]
-    }
+    },
+    {
+      "before": [
+        "]",
+        "C",
+      ],
+      "commands": [
+        "editor.action.dirtydiff.previous"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "c",
+      ],
+      "commands": [
+        "workbench.action.editor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "c",
+      ],
+      "commands": [
+        "workbench.action.editor.nextChange"
+      ]
+    },
   ],
   "vim.operatorPendingModeKeyBindings": [
     {
