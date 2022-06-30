@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Kanagawa",
-  "editor.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -11,12 +11,17 @@
     120
   ],
   "editor.minimap.enabled": false,
-  "diffEditor.renderSideBySide": true,
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
+  "files.simpleDialog.enable": true,
+  "files.trimFinalNewlines": true,
+  "window.dialogStyle": "custom",
+  "workbench.layoutControl.type": "menu",
+  "workbench.settings.editor": "json",
   "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "vim.leader": " ",
   "vim.easymotion": true,
   "vim.camelCaseMotion.enable": true,
@@ -275,10 +280,30 @@
       "before": [
         "<space>",
         "g",
+        "c"
+      ],
+      "commands": [
+        "git.openChange"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "a"
+      ],
+      "commands": [
+        "git.openAllChanges"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
         "o"
       ],
       "commands": [
-        "workbench.action.compareEditor.focusOtherSide",
+        "workbench.action.focusOtherSideEditor",
         {
           "command": "cursorMove",
           "args": {
@@ -349,6 +374,15 @@
     },
     {
       "before": [
+        "n",
+        "c",
+      ],
+      "commands": [
+        "notifications.clearAll"
+      ]
+    },
+    {
+      "before": [
         "[",
         "m"
       ],
@@ -362,7 +396,7 @@
         "g",
       ],
       "commands": [
-        "gitlens.diffWithPrevious"
+        "gitlens.diffWithPreviousInDiffRight"
       ]
     },
     {
@@ -371,7 +405,7 @@
         "g",
       ],
       "commands": [
-        "gitlens.diffWithNext"
+        "gitlens.diffWithNextInDiffRight"
       ]
     },
     {
@@ -455,6 +489,24 @@
         "workbench.action.editor.nextChange"
       ]
     },
+    {
+      "before": [
+        "[",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.compareEditor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.compareEditor.nextChange"
+      ]
+    },
   ],
   "vim.operatorPendingModeKeyBindings": [
     {
@@ -498,8 +550,7 @@
     }
   ],
   "python.languageServer": "Default",
-  "security.workspace.trust.untrustedFiles": "open",
-  "[json]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "remote.SSH.defaultForwardedPorts": [
@@ -579,7 +630,6 @@
       "remotePort": 6008
     }
   ],
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
 }
