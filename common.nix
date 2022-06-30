@@ -66,7 +66,7 @@ in {
       extraConfig = {
         core.pager = "delta";
         fetch.prune = true;
-        merge.conflictSTyle = "diff3";
+        merge.conflictStyle = "diff3";
 
         pull = {
           rebase = true;
