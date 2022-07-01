@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "Kanagawa",
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -113,7 +113,7 @@
       "after": [
         "<C-w>",
         "j"
-      ],
+      ]
     },
     {
       "before": [
@@ -307,6 +307,16 @@
       "before": [
         "<space>",
         "g",
+        "s"
+      ],
+      "commands": [
+        "workbench.view.scm"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
         "p"
       ],
       "commands": [
@@ -383,7 +393,7 @@
       "before": [
         "<space>",
         "n",
-        "c",
+        "c"
       ],
       "commands": [
         "notifications.clearAll"
@@ -401,7 +411,7 @@
     {
       "before": [
         "[",
-        "g",
+        "g"
       ],
       "commands": [
         "gitlens.diffWithPreviousInDiffRight"
@@ -410,7 +420,7 @@
     {
       "before": [
         "]",
-        "g",
+        "g"
       ],
       "commands": [
         "gitlens.diffWithNextInDiffRight"
@@ -464,7 +474,7 @@
     {
       "before": [
         "[",
-        "C",
+        "C"
       ],
       "commands": [
         "editor.action.dirtydiff.next"
@@ -473,7 +483,7 @@
     {
       "before": [
         "]",
-        "C",
+        "C"
       ],
       "commands": [
         "editor.action.dirtydiff.previous"
@@ -482,7 +492,7 @@
     {
       "before": [
         "[",
-        "c",
+        "c"
       ],
       "commands": [
         "workbench.action.editor.previousChange"
@@ -491,7 +501,7 @@
     {
       "before": [
         "]",
-        "c",
+        "c"
       ],
       "commands": [
         "workbench.action.editor.nextChange"
@@ -500,7 +510,7 @@
     {
       "before": [
         "[",
-        "h",
+        "h"
       ],
       "commands": [
         "workbench.action.compareEditor.previousChange"
@@ -509,7 +519,7 @@
     {
       "before": [
         "]",
-        "h",
+        "h"
       ],
       "commands": [
         "workbench.action.compareEditor.nextChange"
@@ -519,7 +529,7 @@
       "before": [
         "<space>",
         "g",
-        "i",
+        "i"
       ],
       "commands": [
         "merge-conflict.accept.incoming"
@@ -529,12 +539,12 @@
       "before": [
         "<space>",
         "g",
-        "o",
+        "o"
       ],
       "commands": [
         "merge-conflict.accept.current"
       ]
-    },
+    }
   ],
   "vim.operatorPendingModeKeyBindings": [
     {
@@ -653,5 +663,5 @@
       "localPort": 6008,
       "remotePort": 6008
     }
-  ],
+  ]
 }
