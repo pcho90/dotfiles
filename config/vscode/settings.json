@@ -1,8 +1,7 @@
 {
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "workbench.colorTheme": "Kanagawa",
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -175,8 +174,7 @@
     },
     {
       "before": [
-        "<space>",
-        "t",
+        "<C-w>",
         "j"
       ],
       "commands": [
@@ -185,8 +183,7 @@
     },
     {
       "before": [
-        "<space>",
-        "t",
+        "<C-w>",
         "k"
       ],
       "commands": [
@@ -195,8 +192,7 @@
     },
     {
       "before": [
-        "<space>",
-        "t",
+        "<C-w>",
         "h"
       ],
       "commands": [
@@ -205,8 +201,7 @@
     },
     {
       "before": [
-        "<space>",
-        "t",
+        "<C-w>",
         "l"
       ],
       "commands": [
@@ -237,7 +232,7 @@
       "before": [
         "<space>",
         "t",
-        "a"
+        "h"
       ],
       "commands": [
         "workbench.action.closeEditorsToTheLeft"
@@ -247,7 +242,7 @@
       "before": [
         "<space>",
         "t",
-        "e"
+        "l"
       ],
       "commands": [
         "workbench.action.closeEditorsToTheRight"
