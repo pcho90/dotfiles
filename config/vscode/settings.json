@@ -12,6 +12,7 @@
     120
   ],
   "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
@@ -121,7 +122,8 @@
       "after": [
         "<C-w>",
         "k"
-      ]
+      ],
+      "when": "editorTextFocus"
     },
     {
       "before": [
