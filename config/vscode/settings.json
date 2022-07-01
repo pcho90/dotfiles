@@ -12,7 +12,6 @@
     120
   ],
   "editor.minimap.enabled": false,
-  "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
@@ -20,7 +19,6 @@
   "files.trimFinalNewlines": true,
   "git.autofetch": true,
   "python.languageServer": "Default",
-  "window.dialogStyle": "custom",
   "workbench.layoutControl.type": "menu",
   "workbench.settings.editor": "json",
   "security.workspace.trust.untrustedFiles": "open",
