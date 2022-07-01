@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -18,6 +18,7 @@
   "files.simpleDialog.enable": true,
   "files.trimFinalNewlines": true,
   "git.autofetch": true,
+  "material-icon-theme.hidesExplorerArrows": true,
   "python.languageServer": "Default",
   "workbench.layoutControl.type": "menu",
   "workbench.settings.editor": "json",
@@ -538,6 +539,16 @@
       ],
       "commands": [
         "merge-conflict.accept.current"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "p",
+        "r"
+      ],
+      "commands": [
+        "pr:github.focus"
       ]
     }
   ],

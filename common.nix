@@ -11,16 +11,6 @@ let
       sha256 = "sha256-29XyooYcuoocyV+FdqA6On+P1XpWp8ov3IAl2m/pdII=";
     };
   };
-  kanagawa = pkgs.vimUtils.buildVimPlugin {
-    name = "kanagawa";
-
-    src = pkgs.fetchFromGitHub {
-      owner = "rebelot";
-      repo = "kanagawa.nvim";
-      rev = "c0d318c3c205e3d2e0dbe67dcd08106ebb1d0452";
-      sha256 = "sha256-WzUmAYrW58rQEcC/UReaW+fTPgJ0UHw6mmLwUy0KfYM=";
-    };
-  };
 in {
   imports = [ ./hosts/${host.name}.nix ]
     ++ (if isDarwin then [ ./darwin.nix ] else [ ]);
@@ -49,7 +39,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "base16";
+      config.theme = "Visual Studio Dark+";
     };
 
     fzf = {
@@ -77,7 +67,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "base16";
+          syntax-theme = "Visual Studio Dark+";
         };
 
         interactive.diffFilter = "delta --color-only";
@@ -91,7 +81,6 @@ in {
       withNodeJs = true;
 
       plugins = with pkgs.vimPlugins; [
-        kanagawa
         vscode-nvim
         popup-nvim
         plenary-nvim
@@ -127,7 +116,7 @@ in {
         ${builtins.readFile ./config/nvim/trouble.lua}
         ${builtins.readFile ./config/nvim/indent.lua}
         EOF
-        colorscheme kanagawa
+        colorscheme vscode
         hi Normal guibg=NONE ctermbg=NONE
         hi LineNr guibg=NONE ctermbg=NONE
         hi SignColumn guibg=NONE ctermbg=NONE
