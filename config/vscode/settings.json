@@ -2,6 +2,7 @@
   "workbench.colorTheme": "Kanagawa",
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -17,11 +18,17 @@
   "files.eol": "\n",
   "files.simpleDialog.enable": true,
   "files.trimFinalNewlines": true,
+  "git.autofetch": true,
+  "python.languageServer": "Default",
   "window.dialogStyle": "custom",
   "workbench.layoutControl.type": "menu",
   "workbench.settings.editor": "json",
-  "git.autofetch": true,
   "security.workspace.trust.untrustedFiles": "open",
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "vim.leader": " ",
   "vim.easymotion": true,
   "vim.camelCaseMotion.enable": true,
@@ -570,10 +577,6 @@
       ]
     }
   ],
-  "python.languageServer": "Default",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "remote.SSH.defaultForwardedPorts": [
     {
       "name": "supervisord",
@@ -651,6 +654,4 @@
       "remotePort": 6008
     }
   ],
-  "zenMode.fullScreen": false,
-  "zenMode.hideLineNumbers": false,
 }
