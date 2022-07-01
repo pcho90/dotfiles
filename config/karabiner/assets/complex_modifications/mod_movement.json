@@ -165,7 +165,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "p",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -184,7 +184,7 @@
         },
         {
           "from": {
-            "key_code": "n",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -203,7 +203,7 @@
         },
         {
           "from": {
-            "key_code": "b",
+            "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -222,7 +222,7 @@
         },
         {
           "from": {
-            "key_code": "f",
+            "key_code": "l",
             "modifiers": {
               "mandatory": [
                 "left_control"

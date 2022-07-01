@@ -30,7 +30,6 @@
   },
   "vim.leader": " ",
   "vim.easymotion": true,
-  "vim.camelCaseMotion.enable": true,
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
   "vim.incsearch": true,
@@ -108,63 +107,6 @@
     },
     {
       "before": [
-        "<C-j>"
-      ],
-      "after": [
-        "<C-w>",
-        "j"
-      ]
-    },
-    {
-      "before": [
-        "<C-k>"
-      ],
-      "after": [
-        "<C-w>",
-        "k"
-      ],
-      "when": "editorTextFocus"
-    },
-    {
-      "before": [
-        "<C-h>"
-      ],
-      "after": [
-        "<C-w>",
-        "h"
-      ]
-    },
-    {
-      "before": [
-        "<C-l>"
-      ],
-      "after": [
-        "<C-w>",
-        "l"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "v"
-      ],
-      "after": [
-        "<C-w>",
-        "v"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "s"
-      ],
-      "after": [
-        "<C-w>",
-        "s"
-      ]
-    },
-    {
-      "before": [
         "<space>",
         "t",
         "o"
@@ -175,7 +117,8 @@
     },
     {
       "before": [
-        "<C-w>",
+        "<leader>",
+        "w",
         "j"
       ],
       "commands": [
@@ -184,7 +127,8 @@
     },
     {
       "before": [
-        "<C-w>",
+        "<leader>",
+        "w",
         "k"
       ],
       "commands": [
@@ -193,7 +137,8 @@
     },
     {
       "before": [
-        "<C-w>",
+        "<leader>",
+        "w",
         "h"
       ],
       "commands": [
@@ -202,7 +147,8 @@
     },
     {
       "before": [
-        "<C-w>",
+        "<leader>",
+        "w",
         "l"
       ],
       "commands": [
@@ -212,8 +158,8 @@
     {
       "before": [
         "<space>",
-        "f",
-        "o"
+        "s",
+        "e"
       ],
       "commands": [
         "search.action.openEditor"
@@ -222,7 +168,7 @@
     {
       "before": [
         "<space>",
-        "f",
+        "s",
         "v"
       ],
       "commands": [
@@ -313,7 +259,7 @@
       "before": [
         "<space>",
         "g",
-        "p"
+        "e"
       ],
       "commands": [
         "workbench.action.focusOtherSideEditor",
