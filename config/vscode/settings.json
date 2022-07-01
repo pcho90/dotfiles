@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Kanagawa",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
@@ -300,7 +300,7 @@
       "before": [
         "<space>",
         "g",
-        "o"
+        "p"
       ],
       "commands": [
         "workbench.action.focusOtherSideEditor",
@@ -374,6 +374,7 @@
     },
     {
       "before": [
+        "<space>",
         "n",
         "c",
       ],
@@ -505,6 +506,26 @@
       ],
       "commands": [
         "workbench.action.compareEditor.nextChange"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "i",
+      ],
+      "commands": [
+        "merge-conflict.accept.incoming"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "o",
+      ],
+      "commands": [
+        "merge-conflict.accept.current"
       ]
     },
   ],
