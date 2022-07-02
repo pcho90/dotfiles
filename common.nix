@@ -159,7 +159,11 @@ in {
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
 
-      initExtra = builtins.readFile ./config/zshrc;
+      initExtra = ''
+        ${builtins.readFile ./config/zshrc}
+        source ${pkgs.zsh-vi-mode}/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+      '';
+
       envExtra = builtins.readFile ./config/zshenv;
 
       oh-my-zsh = {
