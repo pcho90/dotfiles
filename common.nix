@@ -24,6 +24,7 @@ in {
       delta
       fd
       htop
+      nodePackages.pyright
       openssh
       ripgrep
       tree
