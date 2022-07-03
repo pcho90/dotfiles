@@ -22,6 +22,7 @@ in {
     packages = with pkgs; [
       curl
       delta
+      deno
       fd
       htop
       nodePackages.pyright
