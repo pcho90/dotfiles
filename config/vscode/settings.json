@@ -1,10 +1,9 @@
 {
-  "editor.fontFamily": "Consolas Nerd Font",
+  "editor.fontFamily": "Consolas NF",
   "editor.fontSize": 13,
   "editor.lineHeight": 1.4,
-  "terminal.integrated.fontFamily": "Consolas Nerd Font",
+  "terminal.integrated.fontFamily": "Consolas NF",
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.lineHeight": 1.2,
   "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
