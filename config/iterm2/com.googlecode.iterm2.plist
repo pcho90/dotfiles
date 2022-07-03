@@ -3457,7 +3457,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>ConsolasNerdFontCM- 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3515,7 +3515,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>MesloLGSNer-Regular 12</string>
+					<string>ConsolasNerdFontCM- 13</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -3559,7 +3559,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3603,7 +3603,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3645,7 +3645,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3674,7 +3674,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3720,7 +3720,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3764,7 +3764,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3810,7 +3810,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4505,7 +4505,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>ConsolasNerdFontCM- 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -4563,7 +4563,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>MesloLGSNer-Regular 12</string>
+					<string>ConsolasNerdFontCM- 13</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -4607,7 +4607,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4651,7 +4651,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4693,7 +4693,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4722,7 +4722,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4768,7 +4768,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4812,7 +4812,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4858,7 +4858,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>ConsolasNerdFontCM- 13</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
