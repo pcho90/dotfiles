@@ -1,11 +1,11 @@
 [
   {
-    "key": "ctrl+shift+n",
+    "key": "ctrl+shift+o",
     "command": "editor.action.smartSelect.expand",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+shift+p",
+    "key": "ctrl+shift+i",
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
@@ -28,9 +28,5 @@
     "key": "alt+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+cmd+[",
-    "command": "toggleVim"
-  },
+  }
 ]

@@ -1,9 +1,6 @@
 {
-  "editor.fontFamily": "Consolas NF",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 1.4,
-  "terminal.integrated.fontFamily": "Consolas NF",
-  "terminal.integrated.fontSize": 13,
+  "editor.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
@@ -33,13 +30,13 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "vim.leader": " ",
-  "vim.easymotion": true,
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.highlightedyank.enable": true,
   "vim.useCtrlKeys": false,
   "vim.visualstar": true,
+  "vim.sneak": true,
   "vim.handleKeys": {
     "<C-[>": true,
     "<C-a>": true,
@@ -61,20 +58,6 @@
     "<C-l>": true
   },
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "g",
-        "w"
-      ],
-      "after": [
-        "<leader>",
-        "<leader>",
-        "<leader>",
-        "b",
-        "d",
-        "w"
-      ]
-    },
     {
       "before": [
         "g",
@@ -347,6 +330,36 @@
     },
     {
       "before": [
+        "<space>",
+        "g",
+        "i"
+      ],
+      "commands": [
+        "merge-conflict.accept.incoming"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "g",
+        "o"
+      ],
+      "commands": [
+        "merge-conflict.accept.current"
+      ]
+    },
+    {
+      "before": [
+        "<space>",
+        "p",
+        "r"
+      ],
+      "commands": [
+        "pr:github.focus"
+      ]
+    },
+    {
+      "before": [
         "[",
         "m"
       ],
@@ -469,36 +482,6 @@
       ],
       "commands": [
         "workbench.action.compareEditor.nextChange"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "i"
-      ],
-      "commands": [
-        "merge-conflict.accept.incoming"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "g",
-        "o"
-      ],
-      "commands": [
-        "merge-conflict.accept.current"
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "p",
-        "r"
-      ],
-      "commands": [
-        "pr:github.focus"
       ]
     }
   ],
