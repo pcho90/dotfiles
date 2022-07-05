@@ -31,8 +31,6 @@ in {
       tree
     ];
 
-    file."${homeDirectory}/.config/starship.toml".source = ./config/starship.toml;
-
     stateVersion = "22.05";
   };
 
@@ -42,13 +40,6 @@ in {
     bat = {
       enable = true;
       config.theme = "Visual Studio Dark+";
-    };
-
-    fzf = {
-      enable = true;
-      defaultCommand = "rg --files --no-ignore-vcs --hidden";
-      enableBashIntegration = true;
-      enableZshIntegration = true;
     };
 
     git = {
@@ -128,7 +119,6 @@ in {
     };
 
     ssh.enable = true;
-    starship.enable = true;
 
     tmux = {
       enable = true;
@@ -161,17 +151,18 @@ in {
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
 
-      initExtra = ''
-        ${builtins.readFile ./config/zshrc}
-        source ${pkgs.zsh-vi-mode}/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-      '';
-
+      initExtra = builtins.readFile ./config/zshrc;
       envExtra = builtins.readFile ./config/zshenv;
 
       oh-my-zsh = {
         enable = true;
         plugins = [ "git" "z" "vi-mode" ];
       };
+    };
+
+    fzf = {
+      enable = true;
+      defaultCommand = "rg --files --no-ignore-vcs --hidden";
     };
   };
 }
