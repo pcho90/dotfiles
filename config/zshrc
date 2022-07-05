@@ -1,7 +1,20 @@
 
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
-[ -f "~/.fzf.zsh" ] && source "~/.fzf.zsh"
+
+# Setup fzf
+# ---------
+if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
+  export PATH="${PATH:+${PATH}:}~/.nix-profile/share/fzf/bin"
+fi
+
+# Auto-completion
+# ---------------
+[[ $- == *i* ]] && source "~/.nix-profile/share/fzf/shell/completion.zsh" 2> /dev/null
+
+# Key bindings
+# ------------
+source "~/.nix-profile/share/fzf/shell/key-bindings.zsh"
 
 #compdef clyde
 _clyde() {

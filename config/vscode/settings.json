@@ -26,9 +26,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "vim.leader": " ",
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
@@ -602,5 +599,11 @@
       "localPort": 6008,
       "remotePort": 6008
     }
-  ]
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
