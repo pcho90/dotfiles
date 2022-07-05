@@ -1,6 +1,10 @@
 {
-  "editor.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "Consolas NF",
+  "terminal.integrated.fontFamily": "Consolas NF",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.4,
+  "terminal.integrated.fontSize": 13,
+  "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
