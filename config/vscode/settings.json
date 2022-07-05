@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "Monaco Nerd Font",
+  "terminal.integrated.fontFamily": "Monaco Nerd Font",
   "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
@@ -433,7 +433,7 @@
         "C"
       ],
       "commands": [
-        "editor.action.dirtydiff.next"
+        "editor.action.dirtydiff.previous"
       ]
     },
     {
@@ -442,7 +442,7 @@
         "C"
       ],
       "commands": [
-        "editor.action.dirtydiff.previous"
+        "editor.action.dirtydiff.next"
       ]
     },
     {

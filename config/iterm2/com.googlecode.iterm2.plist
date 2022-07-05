@@ -3466,7 +3466,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Draw Powerline Glyphs</key>
-			<false/>
+			<true/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -3802,7 +3802,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>MonacoNerdFontComplete- 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3860,7 +3860,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>MesloLGSNer-Regular 12</string>
+					<string>MonacoNerdFontComplete- 12</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -3904,7 +3904,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3948,7 +3948,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3990,7 +3990,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4019,7 +4019,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4065,7 +4065,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4109,7 +4109,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4155,7 +4155,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4518,7 +4518,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Draw Powerline Glyphs</key>
-			<false/>
+			<true/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -4854,7 +4854,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>MonacoNerdFontComplete- 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -4912,7 +4912,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>MesloLGSNer-Regular 12</string>
+					<string>MonacoNerdFontComplete- 12</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -4956,7 +4956,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4970,7 +4970,7 @@
 							<key>knobs</key>
 							<dict>
 								<key>base: compression resistance</key>
-								<integer>1</integer>
+								<real>1</real>
 								<key>base: priority</key>
 								<real>5</real>
 								<key>iTermStatusBarGitComponentPollingIntervalKey</key>
@@ -5000,7 +5000,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5042,7 +5042,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5071,7 +5071,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5117,7 +5117,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5161,7 +5161,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5207,7 +5207,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>MesloLGSNer-Regular 12</string>
+								<string>MonacoNerdFontComplete- 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
