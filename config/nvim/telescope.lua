@@ -94,4 +94,3 @@ map_tele('<space>ts', 'treesitter', 'builtin')
 -- Lists Pickers
 map_tele('<space>tb', 'builtin', 'builtin')
 map_tele('<space>tl', 'reloader', 'builtin')
-
