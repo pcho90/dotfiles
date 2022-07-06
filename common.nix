@@ -39,7 +39,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "Visual Studio Dark+";
+      config.theme = "OneHalfDark";
     };
 
     git = {
@@ -60,7 +60,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "Visual Studio Dark+";
+          syntax-theme = "OneHalfDark";
         };
 
         interactive.diffFilter = "delta --color-only";
