@@ -3,6 +3,7 @@
     VSCODE_SETTINGS=$HOME/Library/Application\ Support/Code/User/settings.json
     VSCODE_KEYBINDINGS=$HOME/Library/Application\ Support/Code/User/keybindings.json
     KARABINER_SETTINGS=$HOME/.config/karabiner
+    YABAIRC=$HOME/.config/yabai/yabairc
 
     if [[ ! -L $VSCODE_SETTINGS ]]; then
       [[ -f $VSCODE_SETTINGS ]] && rm $VSCODE_SETTINGS
@@ -17,6 +18,11 @@
     if [[ ! -L $KARABINER_SETTINGS ]]; then
       [[ -d $KARABINER_SETTINGS ]] && rm -r $KARABINER_SETTINGS
       ln -s $HOME/dotfiles/config/karabiner $KARABINER_SETTINGS
+    fi
+
+    if [[ ! -L $YABAIRC ]]; then
+      [[ -f $YABAIRC ]] && rm -r $YABAIRC
+      ln -s $HOME/dotfiles/config/yabai/yabairc $YABAIRC
     fi
   '';
 }
