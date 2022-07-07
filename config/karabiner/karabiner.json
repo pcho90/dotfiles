@@ -3036,7 +3036,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -3056,7 +3056,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -6623,7 +6623,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -6643,7 +6643,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -10297,7 +10297,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -10317,7 +10317,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -13850,7 +13850,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -13870,7 +13870,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -17413,7 +17413,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -17433,7 +17433,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -21066,7 +21066,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -21086,7 +21086,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -24779,7 +24779,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
@@ -24799,7 +24799,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_shift",
