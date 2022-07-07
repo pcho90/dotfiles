@@ -21,7 +21,7 @@
     fi
 
     if [[ ! -L $YABAIRC ]]; then
-      [[ -f $YABAIRC ]] && rm -r $YABAIRC
+      [[ -f $YABAIRC ]] && rm $YABAIRC
       ln -s $HOME/dotfiles/config/yabai/yabairc $YABAIRC
     fi
   '';

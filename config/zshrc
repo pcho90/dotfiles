@@ -29,3 +29,7 @@ fi
 
 [[ $- == *i* ]] && source $HOME/.nix-profile/share/fzf/completion.zsh 2> /dev/null
 source $HOME/.nix-profile/share/fzf/key-bindings.zsh
+
+function iterm2_print_user_vars() {
+  it2git
+}
