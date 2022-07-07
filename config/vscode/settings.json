@@ -1,8 +1,9 @@
 {
   "workbench.colorTheme": "One Dark Pro Darker",
-  "editor.fontFamily": "Monaco Nerd Font",
-  "terminal.integrated.fontFamily": "Monaco Nerd Font",
+  "editor.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "workbench.fontAliasing": "auto",
+  "window.commandCenter": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",

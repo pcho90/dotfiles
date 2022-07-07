@@ -19,7 +19,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --balance"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --balance"
             }
           ]
         },
@@ -38,7 +38,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus prev || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus last"
             }
           ]
         },
@@ -57,7 +57,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus next || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus first"
             }
           ]
         },
@@ -76,7 +76,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
             }
           ]
         },
@@ -96,7 +96,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --toggle float"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle float"
             }
           ]
         },
@@ -109,13 +109,14 @@
                 "left_shift",
                 "left_control",
                 "left_option",
-                "left_command"
+                "left_command",
+                "right_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --create"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --create"
             }
           ]
         },
@@ -128,13 +129,14 @@
                 "left_shift",
                 "left_control",
                 "left_option",
-                "left_command"
+                "left_command",
+                "right_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --destroy"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --destroy"
             }
           ]
         },
@@ -153,7 +155,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 1"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 1"
             }
           ]
         },
@@ -172,7 +174,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 2"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 2"
             }
           ]
         },
@@ -191,7 +193,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 3"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 3"
             }
           ]
         },
@@ -210,7 +212,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 4"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 4"
             }
           ]
         },
@@ -229,7 +231,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 5"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 5"
             }
           ]
         },
@@ -248,7 +250,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 6"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 6"
             }
           ]
         },
@@ -267,7 +269,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 7"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 7"
             }
           ]
         },
@@ -286,7 +288,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 8"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 8"
             }
           ]
         },
@@ -305,7 +307,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 9"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 9"
             }
           ]
         },
@@ -324,7 +326,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 10"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 10"
             }
           ]
         },
@@ -344,7 +346,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 1 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 1"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 1 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 1"
             }
           ]
         },
@@ -364,7 +366,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 2 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 2"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 2 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 2"
             }
           ]
         },
@@ -384,7 +386,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 3 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 3"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 3 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 3"
             }
           ]
         },
@@ -404,7 +406,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 4 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 4"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 4 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 4"
             }
           ]
         },
@@ -424,7 +426,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 5 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 5"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 5 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 5"
             }
           ]
         },
@@ -444,7 +446,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 6 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 6"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 6 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 6"
             }
           ]
         },
@@ -464,7 +466,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 7 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 7"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 7 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 7"
             }
           ]
         },
@@ -484,7 +486,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 8 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 8"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 8 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 8"
             }
           ]
         },
@@ -504,7 +506,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 9 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 9"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 9 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 9"
             }
           ]
         },
@@ -524,7 +526,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space 10 && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus 10"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space 10 && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus 10"
             }
           ]
         },
@@ -544,7 +546,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --mirror x-axis"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror x-axis"
             }
           ]
         },
@@ -563,7 +565,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --mirror y-axis"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror y-axis"
             }
           ]
         },
@@ -582,7 +584,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap prev || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
             }
           ]
         },
@@ -601,7 +603,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap next || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
             }
           ]
         },
@@ -621,7 +623,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap north"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap north"
             }
           ]
         },
@@ -641,7 +643,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap west"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap west"
             }
           ]
         },
@@ -661,7 +663,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap east"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap east"
             }
           ]
         },
@@ -681,7 +683,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap south"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap south"
             }
           ]
         },
@@ -701,7 +703,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --warp north"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
             }
           ]
         },
@@ -721,7 +723,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --warp west"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp west"
             }
           ]
         },
@@ -741,7 +743,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --warp east"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
             }
           ]
         },
@@ -761,7 +763,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --warp south"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
             }
           ]
         },
@@ -780,7 +782,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --toggle split"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle split"
             }
           ]
         },
@@ -800,7 +802,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --warp recent"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp recent"
             }
           ]
         },
@@ -819,7 +821,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus first"
             }
           ]
         },
@@ -839,7 +841,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
             }
           ]
         },
@@ -859,7 +861,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --swap last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
             }
           ]
         },
@@ -878,7 +880,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus last"
             }
           ]
         },
@@ -897,7 +899,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus next || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus first"
             }
           ]
         },
@@ -916,7 +918,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus prev || PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus last"
             }
           ]
         },
@@ -936,7 +938,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space next && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus next"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space next && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next"
             }
           ]
         },
@@ -956,7 +958,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --space prev && PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --focus prev"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space prev && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev"
             }
           ]
         },
@@ -975,7 +977,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus west"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus west"
             }
           ]
         },
@@ -994,7 +996,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus south"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus south"
             }
           ]
         },
@@ -1013,7 +1015,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus north"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus north"
             }
           ]
         },
@@ -1032,7 +1034,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --focus east"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus east"
             }
           ]
         },
@@ -1051,7 +1053,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --rotate 90"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 270"
             }
           ]
         },
@@ -1071,7 +1073,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m space --rotate 270"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 90"
             }
           ]
         },
@@ -1090,7 +1092,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize right:100:0"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize right:100:0"
             }
           ]
         },
@@ -1109,7 +1111,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize left:-100:0"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize left:-100:0"
             }
           ]
         },
@@ -1129,7 +1131,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize right:-100:0"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize right:-100:0"
             }
           ]
         },
@@ -1149,7 +1151,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize left:100:0"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize left:100:0"
             }
           ]
         },
@@ -1168,7 +1170,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize top:0:-100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize top:0:-100"
             }
           ]
         },
@@ -1188,7 +1190,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize top:0:100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize top:0:100"
             }
           ]
         },
@@ -1207,7 +1209,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize bottom:0:100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:100"
             }
           ]
         },
@@ -1227,7 +1229,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --resize bottom:0:-100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:-100"
             }
           ]
         },
@@ -1246,7 +1248,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --toggle zoom-fullscreen"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle zoom-fullscreen"
             }
           ]
         },
@@ -1266,7 +1268,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/opt/homebrew/bin:/usr/local/bin' yabai -m window --toggle sticky"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle sticky"
             }
           ]
         },
@@ -1306,6 +1308,25 @@
           "to": [
             {
               "shell_command": "$HOME/.config/yabai/cycle_counterclockwise.sh"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
             }
           ]
         }

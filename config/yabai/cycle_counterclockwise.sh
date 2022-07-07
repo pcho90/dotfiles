@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH="/opt/homebrew/bin:$HOME/.nix-profile/bin"
+PATH="/usr/local/bin:/opt/homebrew/bin:$HOME/.nix-profile/bin"
 
 win=$(yabai -m query --windows --window first | jq '.id')
 
