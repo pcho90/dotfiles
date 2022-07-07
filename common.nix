@@ -25,6 +25,7 @@ in {
       deno
       fd
       htop
+      jq
       nodePackages.pyright
       openssh
       ripgrep
