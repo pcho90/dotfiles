@@ -152,12 +152,7 @@ in {
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
 
-      initExtra = ''
-        ITERM2_SHELL_FILE=$HOME/.iterm2_shell_integration.zsh
-        [[ -f $ITERM2_SHELL_FILE ]] && source $ITERM2_SHELL_FILE
-
-        ${builtins.readFile ./config/zshrc}
-      '';
+      initExtra = builtins.readFile ./config/zshrc;
 
       envExtra = builtins.readFile ./config/zshenv;
 
