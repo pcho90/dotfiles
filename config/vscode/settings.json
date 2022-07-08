@@ -1,10 +1,10 @@
 {
-  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "workbench.fontAliasing": "auto",
   "window.commandCenter": true,
   "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shellIntegration.enabled": true,
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",

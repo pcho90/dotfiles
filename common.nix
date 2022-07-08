@@ -40,7 +40,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "OneHalfDark";
+      config.theme = "Visual Studio Dark+";
     };
 
     git = {
@@ -61,7 +61,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "OneHalfDark";
+          syntax-theme = "Visual Studio Dark+";
         };
 
         interactive.diffFilter = "delta --color-only";
@@ -152,7 +152,12 @@ in {
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
 
-      initExtra = builtins.readFile ./config/zshrc;
+      initExtra = ''
+        ITERM2_SHELL_FILE=$HOME/.iterm2_shell_integration.zsh
+        [[ -f $ITERM2_SHELL_FILE ]] && source $ITERM2_SHELL_FILE
+
+        ${builtins.readFile ./config/zshrc}
+      '';
 
       envExtra = builtins.readFile ./config/zshenv;
 
