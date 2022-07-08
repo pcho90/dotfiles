@@ -9,7 +9,6 @@
             "key_code": "s",
             "modifiers": {
               "mandatory": [
-                "left_shift",
                 "left_control",
                 "left_option",
                 "left_command"
@@ -28,7 +27,6 @@
             "key_code": "v",
             "modifiers": {
               "mandatory": [
-                "left_shift",
                 "left_control",
                 "left_option",
                 "left_command"
@@ -47,7 +45,6 @@
             "key_code": "c",
             "modifiers": {
               "mandatory": [
-                "left_shift",
                 "left_control",
                 "left_option",
                 "left_command"
@@ -66,7 +63,6 @@
             "key_code": "d",
             "modifiers": {
               "mandatory": [
-                "left_shift",
                 "left_control",
                 "left_option",
                 "left_command"
