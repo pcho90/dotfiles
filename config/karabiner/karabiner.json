@@ -334,7 +334,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -2634,7 +2633,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -2653,7 +2652,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -3985,7 +3984,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -6285,7 +6283,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -6304,7 +6302,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -7723,7 +7721,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -10023,7 +10020,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -10042,7 +10039,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -11340,7 +11337,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -13640,7 +13636,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -13659,7 +13655,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -14967,7 +14963,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -17267,7 +17262,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -17286,7 +17281,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -18684,7 +18679,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -20984,7 +20978,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -21003,7 +20997,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -22461,7 +22455,6 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_shift",
                                             "left_command",
                                             "left_control",
                                             "left_option"
@@ -24761,7 +24754,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -24780,7 +24773,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
