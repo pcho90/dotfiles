@@ -2651,13 +2651,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -2670,13 +2669,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -6227,13 +6225,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -6246,13 +6243,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -9890,13 +9886,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -9909,13 +9904,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -13432,13 +13426,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -13451,13 +13444,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -16984,13 +16976,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -17003,13 +16994,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -20626,13 +20616,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -20645,13 +20634,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -24328,13 +24316,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -24347,13 +24334,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "p",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command",
-                                            "left_shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
