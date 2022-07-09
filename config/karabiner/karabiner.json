@@ -2582,7 +2582,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -2601,7 +2601,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -2638,7 +2638,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -2657,7 +2657,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -2836,6 +2836,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -2854,7 +2892,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -2879,13 +2917,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -3208,26 +3246,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -3246,26 +3265,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -3278,6 +3278,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -3303,12 +3341,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -3321,12 +3360,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -6251,7 +6291,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -6270,7 +6310,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -6307,7 +6347,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -6326,7 +6366,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -6505,6 +6545,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -6523,7 +6601,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -6548,13 +6626,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -6877,26 +6955,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -6915,26 +6974,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -6947,6 +6987,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -6972,12 +7050,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -6990,12 +7069,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -10007,7 +10087,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -10026,7 +10106,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -10063,7 +10143,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -10082,7 +10162,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -10261,6 +10341,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -10279,7 +10397,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -10304,13 +10422,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -10633,26 +10751,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -10671,26 +10770,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -10703,6 +10783,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -10728,12 +10846,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -10746,12 +10865,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -13642,7 +13762,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -13661,7 +13781,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -13698,7 +13818,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -13717,7 +13837,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -13896,6 +14016,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -13914,7 +14072,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -13939,13 +14097,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -14268,26 +14426,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -14306,26 +14445,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -14338,6 +14458,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -14363,12 +14521,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -14381,12 +14540,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -17287,7 +17447,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -17306,7 +17466,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -17343,7 +17503,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -17362,7 +17522,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -17541,6 +17701,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -17559,7 +17757,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -17584,13 +17782,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -17913,26 +18111,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -17951,26 +18130,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -17983,6 +18143,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -18008,12 +18206,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -18026,12 +18225,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -21022,7 +21222,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -21041,7 +21241,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -21078,7 +21278,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -21097,7 +21297,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -21276,6 +21476,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -21294,7 +21532,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -21319,13 +21557,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -21648,26 +21886,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -21686,26 +21905,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -21718,6 +21918,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -21743,12 +21981,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -21761,12 +22000,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -22232,7 +22472,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
@@ -24817,7 +25057,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -24836,7 +25076,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -24873,7 +25113,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "right_shift"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -24892,7 +25132,7 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -25071,6 +25311,44 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
@@ -25089,7 +25367,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -25114,13 +25392,13 @@
                                             "left_control",
                                             "left_option",
                                             "left_command",
-                                            "left_shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
                                     }
                                 ],
                                 "type": "basic"
@@ -25443,26 +25721,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -25481,26 +25740,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command",
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "slash",
+                                    "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -25513,6 +25753,44 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command",
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
                                     }
                                 ],
                                 "type": "basic"
@@ -25538,12 +25816,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -25556,12 +25835,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "right_shift"
                                         ]
                                     }
                                 },
@@ -26011,7 +26291,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
