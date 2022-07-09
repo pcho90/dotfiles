@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "GitHub Dark Dimmed",
   "editor.cursorSurroundingLines": 8,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",
@@ -16,27 +15,23 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
-  "material-icon-theme.hidesExplorerArrows": true,
   "python.languageServer": "Default",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.lineHeight": 1.1,
-  "terminal.integrated.shellIntegration.decorationIcon": "",
-  "terminal.integrated.shellIntegration.enabled": true,
   "window.commandCenter": true,
   "workbench.fontAliasing": "auto",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.type": "menu",
   "workbench.settings.editor": "json",
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": false,
-  "vim.leader": " ",
-  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
   "vim.hlsearch": true,
   "vim.incsearch": true,
-  "vim.highlightedyank.enable": true,
-  "vim.useCtrlKeys": false,
-  "vim.visualstar": true,
+  "vim.leader": " ",
   "vim.sneak": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.visualstar": true,
   "vim.handleKeys": {
     "<C-[>": true,
     "<C-a>": true,
@@ -60,6 +55,22 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showDefinitionPreviewHover"
+      ]
+    },
+    {
+      "before": [
+        "<CR>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
         "g",
         "D"
       ],
@@ -74,22 +85,6 @@
       ],
       "commands": [
         "editor.action.referenceSearch.trigger"
-      ]
-    },
-    {
-      "before": [
-        "K"
-      ],
-      "commands": [
-        "editor.action.showDefinitionPreviewHover"
-      ]
-    },
-    {
-      "before": [
-        "<CR>"
-      ],
-      "commands": [
-        ":nohl"
       ]
     },
     {
@@ -383,6 +378,24 @@
       ],
       "commands": [
         "gitlens.diffWithNextInDiffRight"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "G"
+      ],
+      "commands": [
+        "workbench.action.compareEditor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "G"
+      ],
+      "commands": [
+        "workbench.action.compareEditor.nextChange"
       ]
     },
     {
