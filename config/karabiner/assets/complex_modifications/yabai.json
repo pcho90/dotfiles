@@ -7,155 +7,6 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "q",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --balance"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "open_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus last"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "close_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus first"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle float"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "a",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "e",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "equal_sign",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --create"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "hyphen",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --destroy"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
             "key_code": "1",
             "modifiers": {
               "mandatory": [
@@ -526,26 +377,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "x",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror x-axis"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "x",
+            "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -556,121 +388,25 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror y-axis"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus last"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "n",
+            "key_code": "close_bracket",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
-                "left_command",
-                "left_shift"
+                "left_command"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "p",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap north"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap west"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap east"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap south"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus first"
             }
           ]
         },
@@ -683,107 +419,32 @@
                 "left_control",
                 "left_option",
                 "left_command",
-                "right_shift"
+                "left_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space prev && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "semicolon",
+            "key_code": "close_bracket",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
                 "left_command",
-                "right_shift"
+                "left_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp west"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "quote",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "slash",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "w",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle split"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "w",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp recent"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space next && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next"
             }
           ]
         },
@@ -827,19 +488,19 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "e",
+            "key_code": "a",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
                 "left_command",
-                "right_shift"
+                "left_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp first"
             }
           ]
         },
@@ -864,43 +525,26 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "n",
+            "key_code": "e",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
-                "left_command"
+                "left_command",
+                "right_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus first"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "p",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus last"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "close_bracket",
+            "key_code": "e",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -912,26 +556,7 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space next && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus next"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "open_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --space prev && PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus prev"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp last"
             }
           ]
         },
@@ -1010,7 +635,83 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "r",
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap west"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap south"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap north"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap east"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -1021,26 +722,63 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 270"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus first"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "r",
+            "key_code": "p",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
-                "left_command",
-                "right_shift"
+                "left_command"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 90"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --focus last"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap prev || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap last"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap next || PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --swap first"
             }
           ]
         },
@@ -1139,6 +877,24 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:100"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "t",
             "modifiers": {
               "mandatory": [
@@ -1163,20 +919,39 @@
               "mandatory": [
                 "left_control",
                 "left_option",
-                "left_command"
+                "left_command",
+                "right_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:-100"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "b",
+            "key_code": "r",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 270"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "r",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -1188,7 +963,305 @@
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --resize bottom:0:-100"
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --rotate 90"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror y-axis"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --mirror x-axis"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle float"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle sticky"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle split"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --destroy"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --create"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp north"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp west"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp east"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp south"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --warp recent"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --move prev"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --move next"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --balance"
             }
           ]
         },
@@ -1232,25 +1305,6 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "s",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m window --toggle sticky"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
             "key_code": "spacebar",
             "modifiers": {
               "mandatory": [
@@ -1288,54 +1342,19 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "delete_or_backspace",
+            "key_code": "c",
             "modifiers": {
               "mandatory": [
                 "left_control",
                 "left_option",
-                "left_command"
+                "left_command",
+                "right_shift"
               ]
             }
           },
           "to": [
             {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --move prev"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "period",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "left_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --move next"
+              "shell_command": "$HOME/.config/yabai/center.sh"
             }
           ]
         }
