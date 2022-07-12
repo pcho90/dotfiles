@@ -20,26 +20,6 @@
 
   home.file = {
     ".gnupg/gpg-agent.conf".source = ../config/gpg-agent.conf;
-
-    ".ssh/config".text = ''
-      Host coder.pcho90-dev
-        HostName coder.pcho90-dev
-        ProxyCommand /Users/peter.cho/.ssh/.coder-proxy-script-us-east-pcho90-dev.sh
-        StrictHostKeyChecking no
-        ConnectTimeout 0
-        IdentitiesOnly yes
-        IdentityFile /Users/peter.cho/.ssh/coder_enterprise
-        ServerAliveInterval 60
-        ServerAliveCountMax 3
-        ControlMaster auto
-        ControlPersist 600
-        ControlPath /Users/peter.cho/.ssh/.connection-coder-US_EAST-pcho90-dev
-        ForwardAgent no
-        UpdateHostKeys no
-
-      Host gh
-        HostName github.com
-        User git
-    '';
+    ".ssh/config".source = ../config/ssh/config;
   };
 }

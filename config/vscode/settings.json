@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "GitHub Dark Default",
   "editor.cursorSurroundingLines": 8,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",
@@ -621,5 +622,8 @@
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "scm.diffDecorationsGutterPattern": {
+    "modified": false
   }
 }

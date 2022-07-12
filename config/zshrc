@@ -5,6 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+ITERM2_SHELL_FILE=$HOME/.iterm2_shell_integration.zsh
+[[ -f $ITERM2_SHELL_FILE ]] && source $ITERM2_SHELL_FILE
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
