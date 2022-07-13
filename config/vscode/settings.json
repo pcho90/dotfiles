@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.fontFamily": "MesloLGS Nerd Font",
   "editor.cursorSurroundingLines": 8,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",
@@ -16,9 +16,9 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
+  "git.branchPrefix": "pcho90/",
   "python.languageServer": "Default",
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.lineHeight": 1.1,
   "window.commandCenter": true,
   "workbench.fontAliasing": "auto",
   "workbench.layoutControl.type": "menu",
@@ -241,8 +241,8 @@
     {
       "before": [
         "<space>",
-        "g",
-        "e"
+        "w",
+        "o"
       ],
       "commands": [
         "workbench.action.focusOtherSideEditor",
