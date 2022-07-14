@@ -1290,6 +1290,24 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "q",
             "modifiers": {
               "mandatory": [

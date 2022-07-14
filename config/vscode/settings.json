@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "MesloLGS Nerd Font",
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "editor.cursorSurroundingLines": 8,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",
@@ -30,6 +30,7 @@
   "vim.incsearch": true,
   "vim.leader": " ",
   "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
   "vim.visualstar": true,

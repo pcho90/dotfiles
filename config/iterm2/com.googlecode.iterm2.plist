@@ -3906,11 +3906,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>MesloLGSNerdFontComplete-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNerdFontComplete-Regular 12</string>
+			<string>Menlo-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Place Prompt at First Column</key>
@@ -3974,7 +3974,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>JetBrainsMonoNerdFont-Regular 12</string>
+					<string>Menlo-Regular 12</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -4018,7 +4018,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4062,7 +4062,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4104,7 +4104,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4133,7 +4133,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4179,7 +4179,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4223,7 +4223,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4269,7 +4269,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -4298,13 +4298,13 @@
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<false/>
+			<true/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<real>1.05</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/peter.cho</string>
 		</dict>
@@ -4964,11 +4964,11 @@
 			<key>Name</key>
 			<string>Coder</string>
 			<key>Non Ascii Font</key>
-			<string>MesloLGSNer-Regular 12</string>
+			<string>MesloLGSNerdFontComplete-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSNerdFontComplete-Regular 12</string>
+			<string>Menlo-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prevent Opening in a Tab</key>
@@ -5030,7 +5030,7 @@
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>JetBrainsMonoNerdFont-Regular 12</string>
+					<string>Menlo-Regular 12</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -5074,7 +5074,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5118,7 +5118,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5160,7 +5160,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5189,7 +5189,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5235,7 +5235,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5279,7 +5279,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5325,7 +5325,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>JetBrainsMonoNerdFont-Regular 12</string>
+								<string>Menlo-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -5354,13 +5354,13 @@
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<false/>
+			<true/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<real>1.05</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/peter.cho</string>
 		</dict>
@@ -5435,7 +5435,7 @@
 	<key>TerminalMargin</key>
 	<integer>5</integer>
 	<key>TerminalVMargin</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>ThrottleMetalConcurrentFrames</key>
 	<true/>
 	<key>TmuxUsesDedicatedProfile</key>

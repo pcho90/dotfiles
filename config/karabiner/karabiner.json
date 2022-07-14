@@ -2033,7 +2033,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -2052,7 +2052,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -2070,7 +2075,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Chrome with hyper+c",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "c",
@@ -2088,7 +2098,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -2103,6 +2118,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -3391,6 +3429,24 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
                                     }
                                 ],
                                 "type": "basic"
@@ -5742,7 +5798,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -5761,7 +5817,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -5779,25 +5840,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -5812,6 +5860,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -7106,6 +7177,24 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "q",
                                     "modifiers": {
                                         "mandatory": [
@@ -7502,7 +7591,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
@@ -9538,7 +9627,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -9557,7 +9646,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -9575,7 +9669,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Chrome with hyper+c",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "c",
@@ -9593,7 +9692,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -9608,6 +9712,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10896,6 +11023,24 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
                                     }
                                 ],
                                 "type": "basic"
@@ -13213,7 +13358,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -13232,7 +13377,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -13250,7 +13400,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Chrome with hyper+c",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "c",
@@ -13268,7 +13423,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -13283,6 +13443,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -14571,6 +14754,24 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
                                     }
                                 ],
                                 "type": "basic"
@@ -14881,32 +15082,6 @@
                 },
                 "rules": [
                     {
-                        "description": "Map caps_lock to control if pressed with other keys, to escape if pressed alone",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Left option + keys for better movement with mods",
                         "manipulators": [
                             {
@@ -16898,7 +17073,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -16917,7 +17092,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -16935,25 +17115,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control",
-                                            "left_option",
-                                            "left_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -16968,6 +17135,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -18262,6 +18452,24 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "q",
                                     "modifiers": {
                                         "mandatory": [
@@ -18367,6 +18575,32 @@
                                 "to": [
                                     {
                                         "shell_command": "$HOME/.config/yabai/center.sh"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Map control to escape if pressed alone",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "left_control",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_control"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -18637,7 +18871,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
@@ -20673,7 +20907,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -20692,7 +20926,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -20710,7 +20949,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Chrome with hyper+c",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "c",
@@ -20728,7 +20972,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -20743,6 +20992,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -22031,6 +22303,24 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
                                     }
                                 ],
                                 "type": "basic"
@@ -24508,7 +24798,7 @@
                         ]
                     },
                     {
-                        "description": "Launch apps with hyper",
+                        "description": "Launch iTerm with hyper+s",
                         "manipulators": [
                             {
                                 "from": {
@@ -24527,7 +24817,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch VSCode with hyper+v",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "v",
@@ -24545,7 +24840,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Chrome with hyper+c",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "c",
@@ -24563,7 +24863,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Discord with hyper+d",
+                        "manipulators": [
                             {
                                 "from": {
                                     "key_code": "d",
@@ -24578,6 +24883,29 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Discord Canary.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Launch Firefox with hyper+f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -25866,6 +26194,24 @@
                                 "to": [
                                     {
                                         "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m display --focus recent"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "PATH='/usr/local/bin:/opt/homebrew/bin' yabai -m space --focus recent"
                                     }
                                 ],
                                 "type": "basic"

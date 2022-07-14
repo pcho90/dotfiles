@@ -2,7 +2,7 @@
   "title": "Launch apps with hyper",
   "rules": [
     {
-      "description": "Launch apps with hyper",
+      "description": "Launch iTerm with hyper+s",
       "manipulators": [
         {
           "from": {
@@ -21,7 +21,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Launch VSCode with hyper+v",
+      "manipulators": [
         {
           "from": {
             "key_code": "v",
@@ -39,7 +44,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Launch Chrome with hyper+c",
+      "manipulators": [
         {
           "from": {
             "key_code": "c",
@@ -57,7 +67,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Launch Discord with hyper+d",
+      "manipulators": [
         {
           "from": {
             "key_code": "d",
@@ -72,6 +87,29 @@
           "to": [
             {
               "shell_command": "open '/Applications/Discord Canary.app'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Launch Firefox with hyper+f",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Firefox.app'"
             }
           ],
           "type": "basic"
