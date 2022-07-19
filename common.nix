@@ -11,9 +11,21 @@ let
       sha256 = "sha256-29XyooYcuoocyV+FdqA6On+P1XpWp8ov3IAl2m/pdII=";
     };
   };
+
+  github-nvim = pkgs.vimUtils.buildVimPlugin {
+    name = "github-nvim";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "projekt0n";
+      repo = "github-nvim-theme";
+      rev = "81c6a906845b150bb5b51c9979e290e9874efff1";
+      sha256 = "sha256-T8heB2axjPABuyoU33lFFArbbKB4gNgJDv13rOWzYvI=";
+    };
+
+    buildInputs = [ pkgs.luajitPackages.luacheck ];
+  };
 in {
-  imports = [ ./hosts/${host.name}.nix ]
-    ++ (if isDarwin then [ ./darwin.nix ] else [ ]);
+  imports = [ ./hosts/${host.name}.nix ] ++ (if isDarwin then [ ./darwin.nix ] else [ ]);
 
   home = {
     inherit (host) username;
@@ -24,6 +36,7 @@ in {
       delta
       deno
       fd
+      gcc
       htop
       jq
       nodePackages.pyright
@@ -40,7 +53,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "Visual Studio Dark+";
+      config.theme = "TwoDark";
     };
 
     git = {
@@ -61,7 +74,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "Visual Studio Dark+";
+          syntax-theme = "TwoDark";
         };
 
         interactive.diffFilter = "delta --color-only";
@@ -71,14 +84,15 @@ in {
     neovim = {
       enable = true;
       withPython3 = true;
-      withRuby = true;
       withNodeJs = true;
 
       plugins = with pkgs.vimPlugins; [
-        vscode-nvim
+        gruvbox
+        github-nvim
+        onedark-nvim
         popup-nvim
         plenary-nvim
-        nvim-treesitter
+        (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
         nvim-treesitter-textobjects
         nvim-lspconfig
         telescope-nvim
@@ -95,7 +109,6 @@ in {
         trouble-nvim
         vim-commentary
         vim-surround
-        indent-blankline-nvim
       ];
 
       extraConfig = ''
@@ -108,9 +121,8 @@ in {
         ${builtins.readFile ./config/nvim/cmp.lua}
         ${builtins.readFile ./config/nvim/lualine.lua}
         ${builtins.readFile ./config/nvim/trouble.lua}
-        ${builtins.readFile ./config/nvim/indent.lua}
         EOF
-        colorscheme vscode
+        colorscheme onedark
         hi Normal guibg=NONE ctermbg=NONE
         hi LineNr guibg=NONE ctermbg=NONE
         hi SignColumn guibg=NONE ctermbg=NONE
@@ -136,6 +148,8 @@ in {
       extraConfig = builtins.readFile ./config/vimrc;
 
       plugins = with pkgs.vimPlugins; [
+        onedark-vim
+        gruvbox
         vim-code-dark
         vim-commentary
         vim-surround
