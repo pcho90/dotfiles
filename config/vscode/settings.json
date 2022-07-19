@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+  "editor.fontFamily": "JetBrainsMonoNL Nerd Font",
   "editor.cursorSurroundingLines": 8,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",

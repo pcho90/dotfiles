@@ -115,6 +115,29 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Launch PyCharm with hyper+e",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/PyCharm.app'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }

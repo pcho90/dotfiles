@@ -17,5 +17,9 @@ yabai -m config left_padding   12
 yabai -m config right_padding  12
 yabai -m config window_gap     06
 
+yabai -m rule --add app="^PyCharm$" manage=off
+yabai -m rule --add app="JetBrains Gateway" manage=off
+yabai -m rule --add app="JetBrains Client" manage=off
+yabai -m rule --add app="JetBrains Client" title="discord" manage=on
 yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off

@@ -209,7 +209,8 @@
                 "left_control"
               ],
               "optional": [
-                "left_shift"
+                "left_shift",
+                "left_command"
               ]
             }
           },
@@ -228,7 +229,8 @@
                 "left_control"
               ],
               "optional": [
-                "left_shift"
+                "left_shift",
+                "left_command"
               ]
             }
           },
@@ -247,7 +249,8 @@
                 "left_control"
               ],
               "optional": [
-                "left_shift"
+                "left_shift",
+                "left_command"
               ]
             }
           },
@@ -266,7 +269,8 @@
                 "left_control"
               ],
               "optional": [
-                "left_shift"
+                "left_shift",
+                "left_command"
               ]
             }
           },
