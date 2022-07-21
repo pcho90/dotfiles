@@ -28,5 +28,45 @@
     "key": "alt+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+o",
+    "command": "outline.focus"
+  },
+  {
+    "key": "ctrl+cmd+t",
+    "command": "timeline.focus"
+  },
+  {
+    "key": "ctrl+cmd+e",
+    "command": "workbench.explorer.fileView.focus"
+  },
+  {
+    "key": "ctrl+cmd+s",
+    "command": "search.action.focusSearchList"
+  },
+  {
+    "key": "ctrl+cmd+c",
+    "command": "git.openChange"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+cmd+[",
+    "command": "gitlens.diffWithPreviousInDiffRight",
+    "when": "editorTextFocus && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+cmd+]",
+    "command": "gitlens.diffWithNextInDiffRight",
+    "when": "editorTextFocus && gitlens:activeFileStatus =~ /revision/"
   }
 ]
