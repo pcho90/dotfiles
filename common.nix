@@ -24,6 +24,19 @@ let
 
     buildInputs = [ pkgs.luajitPackages.luacheck ];
   };
+
+  solarized-vim = pkgs.vimUtils.buildVimPlugin {
+    name = "solarized-nvim";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "lifepillar";
+      repo = "vim-solarized8";
+      rev = "9f9b7951975012ce51766356c7c28ba56294f9e8";
+      sha256 = "sha256-XejVHWZe83UUBcp+PyesmBTJdpKBaOnQgN5LcJix6eE=";
+    };
+
+    buildInputs = [ pkgs.luajitPackages.luacheck ];
+  };
 in {
   imports = [ ./hosts/${host.name}.nix ] ++ (if isDarwin then [ ./darwin.nix ] else [ ]);
 
@@ -40,6 +53,7 @@ in {
       htop
       jq
       nodePackages.pyright
+      nodePackages.typescript-language-server
       openssh
       ripgrep
       tree
@@ -53,7 +67,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "TwoDark";
+      config.theme = "gruvbox-dark";
     };
 
     git = {
@@ -74,7 +88,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "TwoDark";
+          syntax-theme = "gruvbox-dark";
         };
 
         interactive.diffFilter = "delta --color-only";
@@ -87,9 +101,10 @@ in {
       withNodeJs = true;
 
       plugins = with pkgs.vimPlugins; [
-        gruvbox
+        nvim-solarized-lua
         github-nvim
         onedark-nvim
+        gruvbox
         popup-nvim
         plenary-nvim
         (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
@@ -122,11 +137,11 @@ in {
         ${builtins.readFile ./config/nvim/lualine.lua}
         ${builtins.readFile ./config/nvim/trouble.lua}
         EOF
-        colorscheme onedark
-        hi Normal guibg=NONE ctermbg=NONE
-        hi LineNr guibg=NONE ctermbg=NONE
-        hi SignColumn guibg=NONE ctermbg=NONE
-        hi EndOfBuffer guibg=NONE ctermbg=NONE
+        colorscheme gruvbox
+        " hi Normal guibg=NONE ctermbg=NONE
+        " hi LineNr guibg=NONE ctermbg=NONE
+        " hi SignColumn guibg=NONE ctermbg=NONE
+        " hi EndOfBuffer guibg=NONE ctermbg=NONE
         ${builtins.readFile ./config/nvim/keymaps.vim}
       '';
     };
@@ -148,7 +163,7 @@ in {
       extraConfig = builtins.readFile ./config/vimrc;
 
       plugins = with pkgs.vimPlugins; [
-        onedark-vim
+        edge
         gruvbox
         vim-code-dark
         vim-commentary

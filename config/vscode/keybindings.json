@@ -50,12 +50,12 @@
     "command": "git.openChange"
   },
   {
-    "key": "cmd+]",
+    "key": "shift+alt+]",
     "command": "workbench.action.compareEditor.nextChange",
     "when": "textCompareEditorVisible"
   },
   {
-    "key": "cmd+[",
+    "key": "shift+alt+[",
     "command": "workbench.action.compareEditor.previousChange",
     "when": "textCompareEditorVisible"
   },
@@ -68,5 +68,25 @@
     "key": "ctrl+cmd+]",
     "command": "gitlens.diffWithNextInDiffRight",
     "when": "editorTextFocus && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+alt+]",
+    "command": "editor.action.dirtydiff.next",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "ctrl+alt+[",
+    "command": "editor.action.dirtydiff.previous",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "shift+alt+[",
+    "command": "workbench.action.editor.previousChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "shift+alt+]",
+    "command": "workbench.action.editor.nextChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
   }
 ]

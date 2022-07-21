@@ -20,8 +20,8 @@ opt.splitright = true
 opt.splitbelow = true
 opt.updatetime = 1000
 opt.hlsearch = true
-opt.scrolloff = 10
-opt.sidescrolloff = 10
+opt.scrolloff = 5
+opt.sidescrolloff = 5
 opt.cursorline = false
 -- Tabs
 opt.autoindent = true

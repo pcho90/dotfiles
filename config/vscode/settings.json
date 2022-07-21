@@ -1,7 +1,7 @@
 {
-  "workbench.colorTheme": "GitHub Dark Dimmed",
   "editor.fontFamily": "MesloLGS Nerd Font",
-  "editor.cursorSurroundingLines": 8,
+  // "editor.fontFamily": "JetBrainsMonoNL Nerd Font",
+  "editor.cursorSurroundingLines": 5,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
@@ -30,8 +30,6 @@
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.leader": " ",
-  "vim.sneak": true,
-  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
   "vim.visualstar": true,
@@ -627,5 +625,6 @@
   },
   "scm.diffDecorationsGutterPattern": {
     "modified": false
-  }
+  },
+  "go.toolsManagement.autoUpdate": true
 }
