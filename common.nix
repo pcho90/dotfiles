@@ -49,7 +49,6 @@ in {
       delta
       deno
       fd
-      gcc
       htop
       jq
       nodePackages.pyright

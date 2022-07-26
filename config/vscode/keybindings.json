@@ -88,5 +88,5 @@
     "key": "shift+alt+]",
     "command": "workbench.action.editor.nextChange",
     "when": "editorTextFocus && !textCompareEditorActive"
-  }
+  },
 ]
