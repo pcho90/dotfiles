@@ -3,7 +3,6 @@ local opt = vim.opt
 opt.wildignore = "__pycache__"
 opt.wildignore = opt.wildignore + { "*.o", "*~", "*.pyc", "*pycache*" }
 opt.pumheight = 20
-opt.pumblend = 12
 opt.signcolumn = 'yes'
 opt.showmode = false
 opt.showcmd = true
@@ -22,7 +21,7 @@ opt.updatetime = 1000
 opt.hlsearch = true
 opt.scrolloff = 5
 opt.sidescrolloff = 5
-opt.cursorline = false
+opt.cursorline = true
 -- Tabs
 opt.autoindent = true
 opt.cindent = true
@@ -54,4 +53,5 @@ opt.formatoptions = opt.formatoptions
   - "2" -- I'm not in gradeschool anymore
 opt.joinspaces = false
 opt.fillchars = { eob = " " }
+opt.termguicolors = true
 vim.opt.diffopt = { "internal", "filler", "closeoff", "hiddenoff", "algorithm:minimal" }

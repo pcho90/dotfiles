@@ -26,7 +26,7 @@ let
   };
 
   solarized-vim = pkgs.vimUtils.buildVimPlugin {
-    name = "solarized-nvim";
+    name = "solarized-vim";
 
     src = pkgs.fetchFromGitHub {
       owner = "lifepillar";
@@ -100,9 +100,7 @@ in {
       withNodeJs = true;
 
       plugins = with pkgs.vimPlugins; [
-        nvim-solarized-lua
-        github-nvim
-        onedark-nvim
+        vscode-nvim
         gruvbox
         popup-nvim
         plenary-nvim
@@ -122,6 +120,7 @@ in {
         lualine-nvim
         trouble-nvim
         vim-commentary
+        vim-unimpaired
         vim-surround
       ];
 
@@ -137,10 +136,10 @@ in {
         ${builtins.readFile ./config/nvim/trouble.lua}
         EOF
         colorscheme gruvbox
-        " hi Normal guibg=NONE ctermbg=NONE
-        " hi LineNr guibg=NONE ctermbg=NONE
-        " hi SignColumn guibg=NONE ctermbg=NONE
-        " hi EndOfBuffer guibg=NONE ctermbg=NONE
+        hi Normal guibg=NONE ctermbg=NONE
+        hi LineNr guibg=NONE ctermbg=NONE
+        hi SignColumn guibg=NONE ctermbg=NONE
+        hi EndOfBuffer guibg=NONE ctermbg=NONE
         ${builtins.readFile ./config/nvim/keymaps.vim}
       '';
     };
@@ -162,7 +161,7 @@ in {
       extraConfig = builtins.readFile ./config/vimrc;
 
       plugins = with pkgs.vimPlugins; [
-        edge
+        solarized-vim
         gruvbox
         vim-code-dark
         vim-commentary
