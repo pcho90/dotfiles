@@ -25,14 +25,14 @@ let
     buildInputs = [ pkgs.luajitPackages.luacheck ];
   };
 
-  solarized-vim = pkgs.vimUtils.buildVimPlugin {
-    name = "solarized-vim";
+  catppuccin-vim = pkgs.vimUtils.buildVimPlugin {
+    name = "catppuccin-vim";
 
     src = pkgs.fetchFromGitHub {
-      owner = "lifepillar";
-      repo = "vim-solarized8";
-      rev = "9f9b7951975012ce51766356c7c28ba56294f9e8";
-      sha256 = "sha256-XejVHWZe83UUBcp+PyesmBTJdpKBaOnQgN5LcJix6eE=";
+      owner = "catppuccin";
+      repo = "vim";
+      rev = "ee1c14bd00fd6edcf158fab340c42622690fd859";
+      sha256 = "sha256-wLn72cGtVA080e+oGSidUfCBfZCRvcGX6K9c5qJT7xQ=";
     };
 
     buildInputs = [ pkgs.luajitPackages.luacheck ];
@@ -66,7 +66,7 @@ in {
 
     bat = {
       enable = true;
-      config.theme = "gruvbox-dark";
+      config.theme = "Catppuccin";
     };
 
     git = {
@@ -87,7 +87,7 @@ in {
           enable = true;
           navigate = true;
           side-by-side = true;
-          syntax-theme = "gruvbox-dark";
+          syntax-theme = "Catppuccin";
         };
 
         interactive.diffFilter = "delta --color-only";
@@ -100,6 +100,7 @@ in {
       withNodeJs = true;
 
       plugins = with pkgs.vimPlugins; [
+        catppuccin-nvim
         vscode-nvim
         gruvbox
         popup-nvim
@@ -116,7 +117,6 @@ in {
         cmp-cmdline
         cmp-nvim-lsp
         cmp-nvim-lua
-        nvim-web-devicons
         lualine-nvim
         trouble-nvim
         vim-commentary
@@ -135,11 +135,7 @@ in {
         ${builtins.readFile ./config/nvim/lualine.lua}
         ${builtins.readFile ./config/nvim/trouble.lua}
         EOF
-        colorscheme gruvbox
-        hi Normal guibg=NONE ctermbg=NONE
-        hi LineNr guibg=NONE ctermbg=NONE
-        hi SignColumn guibg=NONE ctermbg=NONE
-        hi EndOfBuffer guibg=NONE ctermbg=NONE
+        colorscheme catppuccin
         ${builtins.readFile ./config/nvim/keymaps.vim}
       '';
     };
@@ -161,14 +157,13 @@ in {
       extraConfig = builtins.readFile ./config/vimrc;
 
       plugins = with pkgs.vimPlugins; [
-        solarized-vim
+        catppuccin-vim
         gruvbox
         vim-code-dark
         vim-commentary
         vim-surround
         vim-unimpaired
-        vim-airline
-        vim-airline-themes
+        lightline-vim
         fzf-vim
         coc-nvim
       ];

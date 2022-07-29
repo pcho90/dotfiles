@@ -30,12 +30,8 @@ set termguicolors
 
 syntax on
 
-colorscheme gruvbox
-
-hi Normal guibg=NONE ctermbg=NONE
-hi LineNr guibg=NONE ctermbg=NONE
-hi SignColumn guibg=NONE ctermbg=NONE
-hi EndOfBuffer guibg=NONE ctermbg=NONE
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+colorscheme catppuccin_mocha
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim

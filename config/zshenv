@@ -8,3 +8,7 @@ export FZF_CTRL_T_COMMAND='rg --files --hidden --no-messages'
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 export ZSH_AUTOSUGGESTION_STRATEGY=(history completion)
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"

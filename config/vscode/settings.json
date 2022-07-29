@@ -1,5 +1,9 @@
 {
-  "editor.fontFamily": "JetBrainsMonoNL Nerd Font",
+  "workbench.colorTheme": "Catppuccin",
+  "editor.fontFamily": "Iosevka",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.4,
+  "terminal.integrated.fontSize": 13,
   "editor.cursorSurroundingLines": 5,
   "editor.formatOnSaveMode": "file",
   "editor.lineNumbers": "relative",

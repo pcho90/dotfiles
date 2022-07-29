@@ -15,7 +15,6 @@ telescope.setup {
     layout_config = {
       prompt_position = 'top',
     },
-    color_devicons = true,
     mappings = {
     i = {
       ['<C-j>'] = actions.move_selection_next,
