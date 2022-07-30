@@ -55,3 +55,6 @@ opt.joinspaces = false
 opt.fillchars = { eob = " " }
 opt.termguicolors = true
 vim.opt.diffopt = { "internal", "filler", "closeoff", "hiddenoff", "algorithm:minimal" }
+
+vim.cmd [[ set grepprg=rg\ --vimgrep\ --smart-case\ --hidden ]]
+vim.cmd [[ set grepformat=%f:%l:%c:%m ]]

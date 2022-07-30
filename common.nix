@@ -56,6 +56,7 @@ in {
       openssh
       ripgrep
       tree
+      python310Packages.flake8
     ];
 
     stateVersion = "22.05";
@@ -122,6 +123,7 @@ in {
         vim-commentary
         vim-unimpaired
         vim-surround
+        vim-flake8
       ];
 
       extraConfig = ''
@@ -166,6 +168,7 @@ in {
         lightline-vim
         fzf-vim
         coc-nvim
+        vim-flake8
       ];
     };
 
